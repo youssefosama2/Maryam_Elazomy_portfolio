@@ -28,7 +28,7 @@ window.SITE = {
   ],
   "eyebrow": "Game designer · Creative lead · Video director",
   "intro": "Game designer and programmer, creative lead, video director and content creator. BA in Game Design and Programming at Alamein International University, graduating in 2027.",
-  "portrait": "assets/img/IMG_20261014_112631_375.jpg",
+  "portrait": "assets/img/Maryam.jpeg",
   "portraitCaption": "Maryam Elazomy",
   "stats": [
     {
@@ -94,6 +94,7 @@ window.SITE = {
       "tags": "Direction · Commercials · Motion",
       "desc": "Commercials, short-form videos and motion graphics, from the script to the final edit.",
       "tone": 6,
+      "cover": "assets/img/IMG_20261014_112532_867.jpeg",
       "tools": [
         "Premiere Pro",
         "CapCut",
@@ -111,89 +112,244 @@ window.SITE = {
         {
           "id": "alex-foods",
           "title": "Alex Foods TV Commercials",
-          "kind": "Video direction",
+          "kind": "Video Direction",
           "when": "Jun 2026 – Present",
           "c": 6,
-          "overview": "TV commercials for an Egyptian juice and food company, directed from concept and scriptwriting through visual design, animation, production and final execution.",
+          "overview": "TV commercials for an Egyptian juice and food company, directed from concept and scriptwriting through visual design, production and final execution.",
           "facts": [
-            ["Role", "Video director (freelance)"],
+            ["Role", "Video Director (Freelance)"],
             ["Client", "Alex Foods, Alexandria"]
           ],
           "skills": [
             "Directing",
             "Scriptwriting",
             "Animation",
-            "Brand storytelling"
+            "Brand Storytelling"
           ],
-          "media": []
+          "media": [
+            {
+              "src": "assets/video/alex-foods.MOV",
+              "caption": "Alex Foods TV Commercial"
+            }
+          ]
         },
         {
           "id": "restaurants",
           "title": "Restaurant & Café Videos",
-          "kind": "Short-form video",
+          "kind": "Commercial Video",
           "when": "2026 – Present",
           "c": 1,
-          "overview": "End-to-end video content for restaurants and cafés, including Momo Café, an Italian brand with a branch in Egypt: scriptwriting, filming, directing, editing and voiceover.",
+          "overview": "Short-form promotional videos for restaurants and cafés, from filming and directing to editing and voiceover.",
           "facts": [
-            ["Role", "Content creator, director, editor"],
-            ["Client", "Restaurants and cafés, including Momo Café"]
+            ["Role", "Content Creator, Director & Editor"],
+            ["Client", "Restaurants and Cafés"]
           ],
           "skills": [
-            "Short-form video",
-            "Voiceover",
-            "Editing"
+            "Filming",
+            "Directing",
+            "Editing",
+            "Voiceover"
           ],
-          "media": []
+          "media": [
+            {
+              "src": "assets/video/4_5942565747732521436.mp4",
+              "caption": "Restaurant & Café Promotional Video"
+            }
+          ]
         },
         {
           "id": "ugc",
           "title": "UGC Videos",
-          "kind": "UGC",
+          "kind": "User-Generated Content",
           "when": "2026 – Present",
           "c": 3,
-          "overview": "UGC videos with self-recorded voiceover for restaurants and products, shot and directed.",
+          "overview": "UGC-style videos for restaurants and products, featuring original filming, direction and self-recorded voiceovers.",
           "facts": [
-            ["Role", "Creator, director, voiceover"]
+            ["Role", "UGC Creator & Director"]
           ],
           "skills": [
             "UGC",
             "Voiceover",
-            "Directing"
+            "Directing",
+            "Storytelling"
           ],
-          "media": []
+          "media": [
+            {
+              "src": "assets/video/4_5942565747732521431.MOV",
+              "caption": "UGC Video"
+            }
+          ]
         },
         {
           "id": "saudi-ads",
           "title": "Promo Ads & Animated Logos",
-          "kind": "Editing and motion",
+          "kind": "Promotional Video",
           "when": "2026",
           "c": 5,
-          "overview": "Promotional video ads edited and filmed for a photography company in Saudi Arabia, plus After Effects motion graphics including animated logos for companies.",
+          "overview": "Promotional video ads and motion graphics created for commercial clients, including animated company logos.",
           "facts": [
-            ["Role", "Video editor and videographer (freelance)"],
-            ["Client", "Photography company, Saudi Arabia"]
+            ["Role", "Video Editor & Videographer"],
+            ["Client", "Photography Company, Saudi Arabia"]
           ],
           "skills": [
-            "Video editing",
-            "Motion graphics",
+            "Video Editing",
+            "Motion Graphics",
             "After Effects"
           ],
-          "media": []
+          "media": [
+            {
+              "src": "assets/video/IMG_7840.MOV",
+              "caption": "Promotional Ads & Motion Graphics"
+            }
+          ]
         },
         {
           "id": "mascot",
           "title": "Mascot Animations",
-          "kind": "Animation",
+          "kind": "Character Animation",
           "when": "",
           "c": 2,
-          "overview": "Animated mascot work.",
-          "todo": "Add: the project or client, your role, the tools and a clip.",
+          "overview": "Animated mascot concepts and character-focused video content.",
+          "todo": "Replace this sample description with the actual project details.",
           "facts": [],
           "skills": [
             "Animation",
-            "Character"
+            "Character Design",
+            "Motion Graphics"
           ],
-          "media": []
+          "media": [
+            {
+              "src": "assets/video/4_5890821832881217117.MOV",
+              "caption": "Mascot Animation"
+            }
+          ]
+        },
+        {
+          "id": "brand-commercials",
+          "title": "Brand Commercials",
+          "kind": "Commercial Production",
+          "when": "",
+          "c": 4,
+          "overview": "Sample project for brand-focused commercial videos, showcasing product presentation, visual storytelling and editing.",
+          "todo": "Temporary project name and description — replace with the actual project details.",
+          "facts": [
+            ["Role", "Video Director & Editor"]
+          ],
+          "skills": [
+            "Commercial Production",
+            "Visual Storytelling",
+            "Editing"
+          ],
+          "media": [
+            {
+              "src": "assets/video/4_5942565747732521452.MOV",
+              "caption": "Brand Commercial"
+            }
+          ]
+        },
+        {
+          "id": "product-videos",
+          "title": "Product Promotional Videos",
+          "kind": "Product Video",
+          "when": "",
+          "c": 0,
+          "overview": "Sample project featuring promotional product videos designed to highlight product features through engaging visuals.",
+          "todo": "Temporary project name and description — replace with the actual project details.",
+          "facts": [
+            ["Role", "Videographer & Editor"]
+          ],
+          "skills": [
+            "Product Videography",
+            "Editing",
+            "Creative Direction"
+          ],
+          "media": [
+            {
+              "src": "assets/video/VID_20261014_023031_408.mp4.mov",
+              "caption": "Product Promotional Video"
+            }
+          ]
+        },
+        {
+          "id": "social-campaigns",
+          "title": "Social Media Video Campaigns",
+          "kind": "Social Media Campaign",
+          "when": "",
+          "c": 1,
+          "overview": "Sample project for short-form video campaigns created to support social media marketing and brand awareness.",
+          "todo": "Temporary project name and description — replace with the actual project details.",
+          "facts": [
+            ["Role", "Video Creator & Editor"]
+          ],
+          "skills": [
+            "Social Media Content",
+            "Short-Form Video",
+            "Editing"
+          ],
+          "media": [
+            {
+              "src": "assets/video/4_5942565747732521445.MOV",
+              "caption": "Social Media Video Campaign"
+            }
+          ]
+        },
+        {
+          "id": "social-campaigns",
+          "title": "Social Media Video Campaigns",
+          "kind": "Social Media Campaign",
+          "when": "",
+          "c": 1,
+          "overview": "Sample project for short-form video campaigns created to support social media marketing and brand awareness.",
+          "todo": "Temporary project name and description — replace with the actual project details.",
+          "facts": [
+            ["Role", "Video Creator & Editor"]
+          ],
+          "skills": [
+            "Social Media Content",
+            "Short-Form Video",
+            "Editing"
+          ],
+          "media": [
+            {
+              "src": "assets/video/4_5942757277504119672.MOV",
+              "caption": "Social Media Video Campaign"
+            }
+          ]
+        },
+        {
+          "id": "social-campaigns",
+          "title": "Social Media Video Campaigns",
+          "kind": "Social Media Campaign",
+          "when": "",
+          "c": 1,
+          "overview": "Sample project for short-form video campaigns created to support social media marketing and brand awareness.",
+          "todo": "Temporary project name and description — replace with the actual project details.",
+          "facts": [
+            ["Role", "Video Creator & Editor"]
+          ],
+          "skills": [
+            "Social Media Content",
+            "Short-Form Video",
+            "Editing"
+          ],
+          "media": [
+            {
+              "src": "assets/img/IMG_20261014_112553_016.jpg",
+              "caption": "Image 1"
+            },
+            {
+              "src": "assets/img/IMG_20261014_112553_044.jpg",
+              "caption": "Image 2"
+            },
+            {
+              "src": "assets/img/IMG_20261014_112553_389.jpg",
+              "caption": "Image 3"
+            },
+            {
+              "src": "assets/img/IMG_20261014_112553_553.jpg",
+              "caption": "Image 4"
+            }
+          ]
         }
       ]
     },
@@ -208,6 +364,7 @@ window.SITE = {
       "tags": "Branding · Graphic Design · UI/UX",
       "desc": "Visual identities, packaging, graphic design and digital interfaces for brands, products and communities.",
       "tone": 0,
+      "cover": "assets/img/IMG_20261014_112532_823.jpeg",
       "tools": [
         "Canva",
         "Adobe Illustrator",
@@ -223,20 +380,39 @@ window.SITE = {
       ],
       "items": [
         {
-          "id": "packaging",
-          "title": "Packaging Design",
-          "kind": "Packaging",
+          "id": "brand-design",
+          "title": "Brand & Graphic Design",
+          "kind": "Graphic design",
           "when": "From 2018",
-          "c": 0,
-          "overview": "Product packaging designed for a well-known potato company.",
+          "c": 5,
+          "overview": "Graphic design for many brands and clients, created at a graphic design company for doctors and as a freelancer.",
           "facts": [
-            ["Role", "Packaging designer"]
+            ["Role", "Graphic designer"],
+            ["Setting", "Design company and freelance"]
           ],
-          "skills": [
-            "Packaging",
-            "Illustrator"
-          ],
-          "media": []
+          "skills": ["Visual branding", "Illustrator", "Photoshop"],
+          "media": [
+            {
+              "src": "assets/video/4_5942757277504119516.MP4",
+              "caption": "Brand & Graphic Design"
+            }
+          ]
+        },
+        {
+          "id": "posters",
+          "title": "Posters & Social Visuals",
+          "kind": "Visual content",
+          "when": "From 2018",
+          "c": 3,
+          "overview": "Posters and visual content for social media, designed with Canva and Adobe Illustrator.",
+          "facts": [["Tools", "Canva, Illustrator, Photoshop"]],
+          "skills": ["Canva", "Poster design", "Social visuals"],
+          "media": [
+            {
+              "src": "assets/img/IMG_20261014_112627_266.jpg",
+              "caption": "Posters & Social Visuals"
+            }
+          ]
         },
         {
           "id": "brand-design",
@@ -249,29 +425,57 @@ window.SITE = {
             ["Role", "Graphic designer"],
             ["Setting", "Design company and freelance"]
           ],
-          "skills": [
-            "Visual branding",
-            "Illustrator",
-            "Photoshop"
-          ],
-          "media": []
+          "skills": ["Visual branding", "Illustrator", "Photoshop"],
+          "media": [
+            {
+              "src": "assets/video/4_5942565747732521425.MP4",
+              "caption": "Brand & Graphic Design"
+            }
+          ]
         },
         {
-          "id": "posters",
-          "title": "Posters & Social Visuals",
-          "kind": "Visual content",
+          "id": "packaging",
+          "title": "Packaging Design",
+          "kind": "Packaging",
           "when": "From 2018",
-          "c": 3,
-          "overview": "Posters and visual content for social media, designed with Canva and Adobe Illustrator.",
-          "facts": [
-            ["Tools", "Canva, Illustrator, Photoshop"]
-          ],
-          "skills": [
-            "Canva",
-            "Poster design",
-            "Social visuals"
-          ],
-          "media": []
+          "c": 0,
+          "overview": "Product packaging designed for a well-known potato company.",
+          "facts": [["Role", "Packaging designer"]],
+          "skills": ["Packaging", "Illustrator"],
+          "media": [
+            {
+              "src": "assets/img/1.png",
+              "caption": "Image 1"
+            },
+            {
+              "src": "assets/img/2.png",
+              "caption": "Image 2"
+            },
+            {
+              "src": "assets/img/3.png",
+              "caption": "Image 3"
+            },
+            {
+              "src": "assets/img/4.png",
+              "caption": "Image 4"
+            },
+            {
+              "src": "assets/img/5.png",
+              "caption": "Image 5"
+            },
+            {
+              "src": "assets/img/6.png",
+              "caption": "Image 6"
+            },
+            {
+              "src": "assets/img/7.png",
+              "caption": "Image 7"
+            },
+            {
+              "src": "assets/img/8.png",
+              "caption": "Image 8"
+            }
+          ]
         },
         {
           "id": "zigo",
@@ -281,15 +485,34 @@ window.SITE = {
           "when": "",
           "c": 5,
           "overview": "A student behavior and performance analysis app, adopted by the university president and deans for the new university clinic.",
-          "facts": [
-            ["Role", "UX/UI design"]
-          ],
-          "skills": [
-            "UX/UI",
-            "Wireframes",
-            "Research"
-          ],
-          "media": []
+          "facts": [["Role", "UX/UI design"]],
+          "skills": ["UX/UI", "Wireframes", "Research"],
+          "media": [
+            {
+              "src": "assets/img/Zigo/1.png",
+              "caption": "Zigo — Image 1"
+            },
+            {
+              "src": "assets/img/Zigo/2.png",
+              "caption": "Zigo — Image 2"
+            },
+            {
+              "src": "assets/img/Zigo/3.png",
+              "caption": "Zigo — Image 3"
+            },
+            {
+              "src": "assets/img/Zigo/4.png",
+              "caption": "Zigo — Image 4"
+            },
+            {
+              "src": "assets/img/Zigo/5.png",
+              "caption": "Zigo — Image 5"
+            },
+            {
+              "src": "assets/img/Zigo/6.png",
+              "caption": "Zigo — Image 6"
+            }
+          ]
         },
         {
           "id": "hera",
@@ -299,15 +522,14 @@ window.SITE = {
           "when": "",
           "c": 0,
           "overview": "A UX/UI concept for a women's ride-hailing app.",
-          "facts": [
-            ["Role", "UX/UI design"]
-          ],
-          "skills": [
-            "UX/UI",
-            "Wireframes",
-            "Prototyping"
-          ],
-          "media": []
+          "facts": [["Role", "UX/UI design"]],
+          "skills": ["UX/UI", "Wireframes", "Prototyping"],
+          "media": [
+            {
+              "src": "assets/video/4_5942565747732521441.mp4",
+              "caption": "Hera App Design"
+            }
+          ]
         },
         {
           "id": "ur-pets-app",
@@ -317,14 +539,14 @@ window.SITE = {
           "when": "University project",
           "c": 3,
           "overview": "UX/UI design for a pet marketplace and community platform.",
-          "facts": [
-            ["Role", "UX/UI design"]
-          ],
-          "skills": [
-            "UX/UI",
-            "Wireframes"
-          ],
-          "media": []
+          "facts": [["Role", "UX/UI design"]],
+          "skills": ["UX/UI", "Wireframes"],
+          "media": [
+            {
+              "src": "assets/img/IMG_20261014_112515_520.jpg",
+              "caption": "UR Pets App Design"
+            }
+          ]
         },
         {
           "id": "kids-apps",
@@ -334,14 +556,14 @@ window.SITE = {
           "when": "",
           "c": 4,
           "overview": "Multiple learning apps for children covering math and skills development.",
-          "facts": [
-            ["Role", "UX/UI design"]
-          ],
-          "skills": [
-            "UX/UI",
-            "Educational design"
-          ],
-          "media": []
+          "facts": [["Role", "UX/UI design"]],
+          "skills": ["UX/UI", "Educational design"],
+          "media": [
+            {
+              "src": "assets/img/IMG_20261014_112557_775.jpg",
+              "caption": "Kids Learning Apps"
+            }
+          ]
         },
         {
           "id": "dept-site",
@@ -351,47 +573,31 @@ window.SITE = {
           "when": "",
           "c": 1,
           "overview": "The full website UI for the Game Design department.",
-          "facts": [
-            ["Role", "UI design"]
-          ],
-          "skills": [
-            "Web UI",
-            "HTML & CSS"
-          ],
-          "media": []
+          "facts": [["Role", "UI design"]],
+          "skills": ["Web UI", "HTML & CSS"],
+          "media": [
+            {
+              "src": "assets/img/IMG_20261014_112619_726.jpg",
+              "caption": "Game Design Department Website"
+            }
+          ]
         },
         {
-          "id": "icpc-photo",
-          "title": "AIU ICPC Photography",
-          "kind": "Community photography",
-          "when": "Aug 2025 – Mar 2026",
-          "c": 3,
-          "overview": "Photography for the AIU ICPC Community, alongside involvement in its media and marketing activities.",
-          "facts": [
-            ["Role", "Photographer"],
-            ["Where", "Alamein International University"]
-          ],
-          "skills": [
-            "Photography",
-            "Community media"
-          ],
-          "media": []
-        },
-        {
-          "id": "food-photo",
-          "title": "Restaurant & Café Photography",
-          "kind": "Food photography",
-          "when": "2026 – Present",
-          "c": 2,
-          "overview": "Photography and filming for restaurants and cafés, including Momo Café.",
-          "facts": [
-            ["Role", "Photographer and videographer"]
-          ],
-          "skills": [
-            "Photography",
-            "Filming"
-          ],
-          "media": []
+          "id": "dept-site",
+          "group": "UX/UI & Web",
+          "title": "Game Design Department Website",
+          "kind": "Web UI",
+          "when": "",
+          "c": 1,
+          "overview": "The full website UI for the Game Design department.",
+          "facts": [["Role", "UI design"]],
+          "skills": ["Web UI", "HTML & CSS"],
+          "media": [
+            {
+              "src": "assets/img/IMG_20261014_112604_166.jpg",
+              "caption": "Game Design Department Website"
+            }
+          ]
         }
       ]
     },
@@ -406,6 +612,7 @@ window.SITE = {
       "tags": "Unity · Unreal Engine · Blender",
       "desc": "Game concepts, gameplay systems, level design, 3D assets and environments built for interactive experiences.",
       "tone": 4,
+      "cover": "assets/img/IMG_20261014_112532_147.jpeg",
       "tools": [
         "Unity (C#)",
         "Unreal Engine",
@@ -438,7 +645,12 @@ window.SITE = {
             "Unity",
             "Blender"
           ],
-          "media": []
+          "media": [
+            {
+              "src": "assets/video/4_5942565747732521447.MOV",
+              "caption": "Leftover Gameplay"
+            }
+          ]
         },
         {
           "id": "lost-memory",
@@ -453,7 +665,24 @@ window.SITE = {
           "skills": [
             "Game design"
           ],
-          "media": []
+          "media": [
+            {
+              "src": "assets/video/VID_20261014_023119_853.mp4",
+              "caption": "The Lost Memory — Video 1"
+            },
+            {
+              "src": "assets/img/Image 2026-10-14 at 8.27.51 PM (1).jpeg",
+              "caption": "The Lost Memory — Video 2"
+            },
+            {
+              "src": "assets/img/Image 2026-10-14 at 8.27.51 PM.jpeg",
+              "caption": "The Lost Memory — Video 3"
+            },
+            {
+              "src": "assets/img/Image 2026-10-14 at 8.27.53 PM.jpeg",
+              "caption": "The Lost Memory — Video 4"
+            }
+          ]
         },
         {
           "id": "healthy-runner",
@@ -472,7 +701,48 @@ window.SITE = {
             "Game mechanics",
             "Educational design"
           ],
-          "media": []
+          "media": [
+            {
+              "src": "assets/img/Character_Design_Board/1.png",
+              "caption": "Character Design Board — Image 1"
+            },
+            {
+              "src": "assets/img/Character_Design_Board/2.png",
+              "caption": "Character Design Board — Image 2"
+            },
+            {
+              "src": "assets/img/Character_Design_Board/3.png",
+              "caption": "Character Design Board — Image 3"
+            },
+            {
+              "src": "assets/img/Character_Design_Board/4.png",
+              "caption": "Character Design Board — Image 4"
+            },
+            {
+              "src": "assets/img/Character_Design_Board/5.png",
+              "caption": "Character Design Board — Image 5"
+            },
+            {
+              "src": "assets/img/Character_Design_Board/6.png",
+              "caption": "Character Design Board — Image 6"
+            },
+            {
+              "src": "assets/img/Character_Design_Board/7.png",
+              "caption": "Character Design Board — Image 7"
+            },
+            {
+              "src": "assets/img/Character_Design_Board/8.png",
+              "caption": "Character Design Board — Image 8"
+            },
+            {
+              "src": "assets/img/Character_Design_Board/9.png",
+              "caption": "Character Design Board — Image 9"
+            },
+            {
+              "src": "assets/img/Character_Design_Board/10.png",
+              "caption": "Character Design Board — Image 10"
+            }
+          ]
         },
         {
           "id": "prototypes",
@@ -489,7 +759,12 @@ window.SITE = {
             "OOP",
             "Prototyping"
           ],
-          "media": []
+          "media": [
+            {
+              "src": "assets/img/IMG_20261014_112543_149.jpg",
+              "caption": "Unity Prototypes"
+            }
+          ]
         },
         {
           "id": "unreal-levels",
@@ -506,7 +781,12 @@ window.SITE = {
             "Level design",
             "Gameplay flow"
           ],
-          "media": []
+          "media": [
+            {
+              "src": "assets/video/4_5942565747732521437.MP4",
+              "caption": "Unreal Engine Level Showcase"
+            }
+          ]
         },
         {
           "id": "rooftop",
@@ -523,110 +803,16 @@ window.SITE = {
             "Level design",
             "Programming"
           ],
-          "media": []
-        },
-        {
-          "id": "blender-assets",
-          "title": "Blender Game Assets",
-          "kind": "3D modeling",
-          "when": "",
-          "c": 3,
-          "overview": "3D characters, environments and game assets created in Blender.",
-          "todo": "Add: which assets, renders and a turntable video.",
-          "facts": [
-            ["Tools", "Blender"]
-          ],
-          "skills": [
-            "3D modeling",
-            "Asset creation",
-            "Game-ready assets"
-          ],
-          "media": []
-        },
-        {
-          "id": "high-poly",
-          "title": "High-Poly Character Design",
-          "kind": "3D characters",
-          "when": "",
-          "c": 1,
-          "overview": "3D characters created in Blender and ZBrush.",
-          "todo": "Add: which characters, the sculpting workflow and renders.",
-          "facts": [
-            ["Tools", "Blender, ZBrush"]
-          ],
-          "skills": [
-            "High-poly modeling",
-            "Character design",
-            "Sculpting"
-          ],
-          "media": []
-        },
-        {
-          "id": "design-2d3d",
-          "title": "2D & 3D Design",
-          "kind": "Design",
-          "when": "University projects",
-          "c": 5,
-          "overview": "2D and 3D designs created for university projects.",
-          "facts": [
-            ["Tools", "Blender"]
-          ],
-          "skills": [
-            "2D design",
-            "3D design"
-          ],
-          "media": []
-        },
-        {
-          "id": "env-sketches",
-          "title": "Environment Sketches",
-          "kind": "Concept work",
-          "when": "",
-          "c": 4,
-          "overview": "Environment sketches for game worlds.",
-          "todo": "Add: which worlds, the sketches and how they became 3D.",
-          "facts": [],
-          "skills": [
-            "Environment design",
-            "Sketching"
-          ],
-          "media": []
-        },
-        {
-          "id": "leftover-env",
-          "title": "Leftover Environments",
-          "kind": "3D environments",
-          "when": "In development",
-          "c": 6,
-          "overview": "3D environments for the game Leftover, built in Blender for Unity.",
-          "facts": [
-            ["Game", "Leftover"],
-            ["Tools", "Blender, Unity"]
-          ],
-          "skills": [
-            "Environment art",
-            "Blender",
-            "Unity"
-          ],
-          "media": []
-        },
-        {
-          "id": "camel-world",
-          "title": "Camel Robot Mini World",
-          "kind": "3D scene",
-          "when": "Personal project",
-          "c": 2,
-          "overview": "A Blender mini world: a planet with a camel-inspired robot, a vehicle and a desert environment.",
-          "todo": "Confirm the status and add renders.",
-          "facts": [
-            ["Tools", "Blender"]
-          ],
-          "skills": [
-            "Modeling",
-            "Environment",
-            "Props"
-          ],
-          "media": []
+          "media": [
+            {
+              "src": "assets/img/IMG_20261014_112548_531.jpg",
+              "caption": "Rooftop — Screenshot 1"
+            },
+            {
+              "src": "assets/img/IMG_20261014_112548_864.jpg",
+              "caption": "Rooftop — Screenshot 2"
+            }
+          ]
         }
       ]
     },
@@ -641,6 +827,7 @@ window.SITE = {
       "tags": "Social Media · Marketing · Content",
       "desc": "Content planning, social media management, paid campaigns and marketing strategies for brands and creators.",
       "tone": 1,
+      "cover": "assets/img/IMG_20261014_112532_222.jpeg",
       "tools": [
         "Social media content",
         "Paid advertising",
@@ -655,6 +842,75 @@ window.SITE = {
         "Consumer Behavior & Neuromarketing"
       ],
       "items": [
+        {
+          "id": "social-campaigns",
+          "title": "Social Media Video Campaigns",
+          "kind": "Social Media Campaign",
+          "when": "",
+          "c": 1,
+          "overview": "Sample project for short-form video campaigns created to support social media marketing and brand awareness.",
+          "todo": "Temporary project name and description — replace with the actual project details.",
+          "facts": [
+            ["Role", "Video Creator & Editor"]
+          ],
+          "skills": [
+            "Social Media Content",
+            "Short-Form Video",
+            "Editing"
+          ],
+          "media": [
+            {
+              "src": "assets/video/1791938877063.mp4",
+              "caption": "Social Media Video Campaign"
+            }
+          ]
+        },
+        {
+          "id": "social-campaigns",
+          "title": "Social Media Video Campaigns",
+          "kind": "Social Media Campaign",
+          "when": "",
+          "c": 1,
+          "overview": "Sample project for short-form video campaigns created to support social media marketing and brand awareness.",
+          "todo": "Temporary project name and description — replace with the actual project details.",
+          "facts": [
+            ["Role", "Video Creator & Editor"]
+          ],
+          "skills": [
+            "Social Media Content",
+            "Short-Form Video",
+            "Editing"
+          ],
+          "media": [
+            {
+              "src": "assets/video/4_5890821832881217114.MOV",
+              "caption": "Social Media Video Campaign"
+            }
+          ]
+        },
+        {
+          "id": "social-campaigns",
+          "title": "Social Media Video Campaigns",
+          "kind": "Social Media Campaign",
+          "when": "",
+          "c": 1,
+          "overview": "Sample project for short-form video campaigns created to support social media marketing and brand awareness.",
+          "todo": "Temporary project name and description — replace with the actual project details.",
+          "facts": [
+            ["Role", "Video Creator & Editor"]
+          ],
+          "skills": [
+            "Social Media Content",
+            "Short-Form Video",
+            "Editing"
+          ],
+          "media": [
+            {
+              "src": "assets/video/IMG_4940.MP4",
+              "caption": "Social Media Video Campaign"
+            }
+          ]
+        },
         {
           "id": "pages",
           "title": "Page Management",
@@ -671,7 +927,24 @@ window.SITE = {
             "Content planning",
             "Ad campaigns"
           ],
-          "media": []
+          "media": [
+            {
+              "src": "assets/img/Game Design/1.png",
+              "caption": "Game Design — Image 1"
+            },
+            {
+              "src": "assets/img/Game Design/2.png",
+              "caption": "Game Design — Image 2"
+            },
+            {
+              "src": "assets/img/Game Design/3.png",
+              "caption": "Game Design — Image 3"
+            },
+            {
+              "src": "assets/img/Game Design/4.png",
+              "caption": "Game Design — Image 4"
+            }
+          ]
         },
         {
           "id": "paid-ads",
@@ -688,75 +961,48 @@ window.SITE = {
             "Campaigns",
             "Short-form video"
           ],
-          "media": []
-        },
-        {
-          "id": "strategy",
-          "title": "Marketing & Strategy Plans",
-          "kind": "Strategy",
-          "when": "Freelance",
-          "c": 2,
-          "text": "Five markets",
-          "overview": "Marketing plans, pitches and strategic plans for clients and companies in Libya, Saudi Arabia, the UAE, Syria and Jordan.",
-          "facts": [
-            ["Markets", "Libya, Saudi Arabia, UAE, Syria, Jordan"]
-          ],
-          "skills": [
-            "Marketing plans",
-            "Pitching",
-            "Regional outreach"
-          ],
-          "media": []
-        },
-        {
-          "id": "creators",
-          "title": "Content for Teachers & Creators",
-          "kind": "Content creation",
-          "when": "Freelance",
-          "c": 5,
-          "overview": "Content ideas, advertising and marketing for teachers and other content creators.",
-          "facts": [
-            ["Role", "Content creator (freelance)"]
-          ],
-          "skills": [
-            "Content ideas",
-            "Advertising",
-            "Marketing"
-          ],
-          "media": []
-        },
-        {
-          "id": "scripts",
-          "title": "Scriptwriting",
-          "kind": "Writing",
-          "when": "Ongoing",
-          "c": 0,
-          "overview": "Scripts for TV commercials, restaurant videos and social media pages, written together with the content and marketing plan.",
-          "facts": [
-            ["Role", "Scriptwriter"]
-          ],
-          "skills": [
-            "Scriptwriting",
-            "Storytelling"
-          ],
-          "media": []
-        },
-        {
-          "id": "creator",
-          "title": "Personal Content Creator",
-          "kind": "Content creation",
-          "when": "From 2017",
-          "c": 3,
-          "overview": "A personal Facebook account run as a content creator since 2017.",
-          "facts": [
-            ["Role", "Content creator"],
-            ["Platform", "Facebook"]
-          ],
-          "skills": [
-            "Content creation",
-            "Audience building"
-          ],
-          "media": []
+        "media": [
+          {
+            "src": "assets/img/Marketing Plan UR ANIMALS/1.png",
+            "caption": "Marketing Plan UR ANIMALS — Image 1"
+          },
+          {
+            "src": "assets/img/Marketing Plan UR ANIMALS/2.png",
+            "caption": "Marketing Plan UR ANIMALS — Image 2"
+          },
+          {
+            "src": "assets/img/Marketing Plan UR ANIMALS/3.png",
+            "caption": "Marketing Plan UR ANIMALS — Image 3"
+          },
+          {
+            "src": "assets/img/Marketing Plan UR ANIMALS/4.png",
+            "caption": "Marketing Plan UR ANIMALS — Image 4"
+          },
+          {
+            "src": "assets/img/Marketing Plan UR ANIMALS/5.png",
+            "caption": "Marketing Plan UR ANIMALS — Image 5"
+          },
+          {
+            "src": "assets/img/Marketing Plan UR ANIMALS/6.png",
+            "caption": "Marketing Plan UR ANIMALS — Image 6"
+          },
+          {
+            "src": "assets/img/Marketing Plan UR ANIMALS/7.png",
+            "caption": "Marketing Plan UR ANIMALS — Image 7"
+          },
+          {
+            "src": "assets/img/Marketing Plan UR ANIMALS/8.png",
+            "caption": "Marketing Plan UR ANIMALS — Image 8"
+          },
+          {
+            "src": "assets/img/Marketing Plan UR ANIMALS/9.png",
+            "caption": "Marketing Plan UR ANIMALS — Image 9"
+          },
+          {
+            "src": "assets/img/Marketing Plan UR ANIMALS/10.png",
+            "caption": "Marketing Plan UR ANIMALS — Image 10"
+          }
+        ]
         }
       ]
     },
@@ -771,6 +1017,7 @@ window.SITE = {
       "tags": "Leadership · Communities · Events",
       "desc": "Community building, student leadership, event participation and initiatives that bring people together.",
       "tone": 3,
+      "cover": "assets/img/IMG_20261014_112532_898.jpeg",
       "tools": [
         "Team leadership",
         "Branding strategy",
@@ -785,6 +1032,25 @@ window.SITE = {
         "Nominated by AIU for Egypt Forum 2026 as an outstanding student"
       ],
       "items": [
+        {
+          "id": "brand-design",
+          "title": "Brand & Graphic Design",
+          "kind": "Graphic design",
+          "when": "From 2018",
+          "c": 5,
+          "overview": "Graphic design for many brands and clients, created at a graphic design company for doctors and as a freelancer.",
+          "facts": [
+            ["Role", "Graphic designer"],
+            ["Setting", "Design company and freelance"]
+          ],
+          "skills": ["Visual branding", "Illustrator", "Photoshop"],
+          "media": [
+            {
+              "src": "assets/video/IMG_1147.MP4",
+              "caption": "Brand & Graphic Design"
+            }
+          ]
+        },
         {
           "id": "community",
           "title": "UR Pets Bazaar Community",
@@ -802,7 +1068,24 @@ window.SITE = {
             "Entrepreneurship",
             "Content"
           ],
-          "media": []
+          "media": [
+            {
+              "src": "assets/img/ICPC-Case-Study/1.png",
+              "caption": "ICPC Case Study — Image 1"
+            },
+            {
+              "src": "assets/img/ICPC-Case-Study/2.png",
+              "caption": "ICPC Case Study — Image 2"
+            },
+            {
+              "src": "assets/img/ICPC-Case-Study/3.png",
+              "caption": "ICPC Case Study — Image 3"
+            },
+            {
+              "src": "assets/img/ICPC-Case-Study/4.png",
+              "caption": "ICPC Case Study — Image 4"
+            }
+          ]
         },
         {
           "id": "icpc-media",
@@ -821,1157 +1104,32 @@ window.SITE = {
             "Branding",
             "Community page"
           ],
-          "media": []
+            "media": [
+              { "src": "assets/img/OPPORTUNITIES/1.jpeg", "caption": "Opportunities — Image 1" },
+              { "src": "assets/img/OPPORTUNITIES/2.jpeg", "caption": "Opportunities — Image 2" },
+              { "src": "assets/img/OPPORTUNITIES/3.jpeg", "caption": "Opportunities — Image 3" },
+              { "src": "assets/img/OPPORTUNITIES/4.jpeg", "caption": "Opportunities — Image 4" },
+              { "src": "assets/img/OPPORTUNITIES/5.jpeg", "caption": "Opportunities — Image 5" },
+              { "src": "assets/img/OPPORTUNITIES/6.jpeg", "caption": "Opportunities — Image 6" },
+              { "src": "assets/img/OPPORTUNITIES/7.jpeg", "caption": "Opportunities — Image 7" },
+              { "src": "assets/img/OPPORTUNITIES/8.jpeg", "caption": "Opportunities — Image 8" },
+              { "src": "assets/img/OPPORTUNITIES/9.jpeg", "caption": "Opportunities — Image 9" },
+              { "src": "assets/img/OPPORTUNITIES/10.jpeg", "caption": "Opportunities — Image 10" },
+              { "src": "assets/img/OPPORTUNITIES/11.jpeg", "caption": "Opportunities — Image 11" },
+              { "src": "assets/img/OPPORTUNITIES/12.jpeg", "caption": "Opportunities — Image 12" },
+              { "src": "assets/img/OPPORTUNITIES/13.jpeg", "caption": "Opportunities — Image 13" },
+              { "src": "assets/img/OPPORTUNITIES/14.jpeg", "caption": "Opportunities — Image 14" },
+              { "src": "assets/img/OPPORTUNITIES/15.jpeg", "caption": "Opportunities — Image 15" },
+              { "src": "assets/img/OPPORTUNITIES/16.jpeg", "caption": "Opportunities — Image 16" },
+              { "src": "assets/img/OPPORTUNITIES/17.jpeg", "caption": "Opportunities — Image 17" },
+              { "src": "assets/img/OPPORTUNITIES/18.jpeg", "caption": "Opportunities — Image 18" },
+              { "src": "assets/img/OPPORTUNITIES/19.jpeg", "caption": "Opportunities — Image 19" },
+              { "src": "assets/img/OPPORTUNITIES/20.jpeg", "caption": "Opportunities — Image 20" }
+            ]
         },
-        {
-          "id": "ieee-content",
-          "title": "IEEE AIU Student Branch",
-          "kind": "Media & Marketing",
-          "when": "Dec 2024 – Present",
-          "c": 5,
-          "text": "IEEE",
-          "overview": "Contributes to content creation and campaigns for the student branch.",
-          "facts": [
-            ["Role", "Member, Media & Marketing"]
-          ],
-          "skills": [
-            "Content creation",
-            "Campaigns"
-          ],
-          "media": []
-        },
-        {
-          "id": "egypt-forum",
-          "title": "Egypt Forum 2026",
-          "kind": "Nomination",
-          "when": "5 Oct 2026",
-          "c": 6,
-          "text": "Egypt Forum",
-          "overview": "Nominated by Alamein International University as an outstanding student. The only Faculty of Arts and Design student selected.",
-          "facts": [
-            ["Date", "5 Oct 2026"],
-            ["Result", "Nominated"]
-          ],
-          "skills": [
-            "Representation",
-            "Public dialogue"
-          ],
-          "media": []
-        },
-        {
-          "id": "green-loop",
-          "title": "Green Loop Hackathon",
-          "kind": "ESF Waste Management",
-          "when": "Oct 2026",
-          "c": 4,
-          "text": "Finalist",
-          "overview": "Idea owner of an application system for universities. Created the pitch, marketing plan, business plan and prototype. Winner at Alamein International University and finalist in the final stage. Final results on 20 October 2026.",
-          "facts": [
-            ["Role", "Idea owner"],
-            ["Result", "AIU winner, finalist"]
-          ],
-          "skills": [
-            "Pitching",
-            "Marketing plan",
-            "Business plan",
-            "Prototype"
-          ],
-          "media": []
-        },
-        {
-          "id": "game-jam",
-          "title": "Game Jam, Grand Egyptian Museum",
-          "kind": "Competition",
-          "when": "Oct 2026",
-          "c": 2,
-          "text": "Game Jam",
-          "overview": "Currently participating.",
-          "facts": [
-            ["Status", "Participating"]
-          ],
-          "skills": [
-            "Game design",
-            "Teamwork"
-          ],
-          "media": []
-        },
-        {
-          "id": "events",
-          "title": "Event Communication",
-          "kind": "Events",
-          "when": "",
-          "c": 1,
-          "draft": true,
-          "overview": "Event coverage and communication.",
-          "todo": "Add the events you photographed or communicated for (name, date, your role) with photos. Remove draft:true when ready.",
-          "facts": [],
-          "skills": [
-            "Event photography",
-            "Communication"
-          ],
-          "media": []
-        }
       ]
     }
   ],
- 
-  // "sections": [ 
-  //   {
-  //     "tools": [
-  //       "Canva",
-  //       "Adobe Illustrator",
-  //       "Adobe Photoshop"
-  //     ],
-  //     "highlights": [
-  //       "Graphic and packaging designer since 2018",
-  //       "Packaging for a well-known potato company",
-  //       "Design work at a graphic design company for doctors, and as a freelancer"
-  //     ],
-  //     "id": "visual",
-  //     "num": "01",
-  //     "title": "TV Commercials, Short Films &",
-  //     "tags": "Canva · Illustrator · Photoshop",
-  //     "desc": "Visual content, branding and packaging for brands, doctors, restaurants and online communities.",
-  //     "tone": 0,
-  //     "items": [
-  //       {
-  //         "id": "packaging",
-  //         "title": "Packaging Design",
-  //         "kind": "Packaging",
-  //         "when": "From 2018",
-  //         "c": 0,
-  //         "overview": "Product packaging designed for a well-known potato company.",
-  //         "facts": [
-  //           [
-  //             "Role",
-  //             "Packaging designer"
-  //           ]
-  //         ],
-  //         "skills": [
-  //           "Packaging",
-  //           "Illustrator"
-  //         ],
-  //         "media": []
-  //       },
-  //       {
-  //         "id": "brand-design",
-  //         "title": "Brand & Graphic Design",
-  //         "kind": "Graphic design",
-  //         "when": "From 2018",
-  //         "c": 5,
-  //         "overview": "Graphic design for many brands and clients, created at a graphic design company for doctors and as a freelancer.",
-  //         "facts": [
-  //           [
-  //             "Role",
-  //             "Graphic designer"
-  //           ],
-  //           [
-  //             "Setting",
-  //             "Design company and freelance"
-  //           ]
-  //         ],
-  //         "skills": [
-  //           "Visual branding",
-  //           "Illustrator",
-  //           "Photoshop"
-  //         ],
-  //         "media": []
-  //       },
-  //       {
-  //         "id": "posters",
-  //         "title": "Posters & Social Visuals",
-  //         "kind": "Visual content",
-  //         "when": "From 2018",
-  //         "c": 3,
-  //         "overview": "Posters and visual content for social media, designed with Canva and Adobe Illustrator.",
-  //         "facts": [
-  //           [
-  //             "Tools",
-  //             "Canva, Illustrator, Photoshop"
-  //           ]
-  //         ],
-  //         "skills": [
-  //           "Canva",
-  //           "Poster design",
-  //           "Social visuals"
-  //         ],
-  //         "media": []
-  //       }
-  //     ]
-  //   },
-  //   {
-  //     "tools": [
-  //       "Premiere Pro",
-  //       "CapCut",
-  //       "After Effects",
-  //       "AI video creation",
-  //       "Voiceover"
-  //     ],
-  //     "highlights": [
-  //       "Video director at Alex Foods since June 2026",
-  //       "Scripts, filming, directing, editing and voiceover handled end to end",
-  //       "After Effects animated logos for companies",
-  //       "Ready to Roll: The Video Production Process, with Honors, University of Colorado Boulder"
-  //     ],
-  //     "id": "video",
-  //     "num": "02",
-  //     "title": "Visual & UI/UX Design",
-  //     "tags": "Editing · Commercials · Motion",
-  //     "desc": "Commercials, short-form videos and motion graphics, from the script to the final edit.",
-  //     "tone": 6,
-  //     "items": [
-  //       {
-  //         "id": "alex-foods",
-  //         "title": "Alex Foods TV Commercials",
-  //         "kind": "Video direction",
-  //         "when": "Jun 2026 – Present",
-  //         "c": 6,
-  //         "overview": "TV commercials for an Egyptian juice and food company, directed from concept and scriptwriting through visual design, animation, production and final execution.",
-  //         "facts": [
-  //           [
-  //             "Role",
-  //             "Video director (freelance)"
-  //           ],
-  //           [
-  //             "Client",
-  //             "Alex Foods, Alexandria"
-  //           ]
-  //         ],
-  //         "skills": [
-  //           "Directing",
-  //           "Scriptwriting",
-  //           "Animation",
-  //           "Brand storytelling"
-  //         ],
-  //         "media": []
-  //       },
-  //       {
-  //         "id": "restaurants",
-  //         "title": "Restaurant & Café Videos",
-  //         "kind": "Short-form video",
-  //         "when": "2026 – Present",
-  //         "c": 1,
-  //         "overview": "End-to-end video content for restaurants and cafés, including Momo Café, an Italian brand with a branch in Egypt: scriptwriting, filming, directing, editing and voiceover.",
-  //         "facts": [
-  //           [
-  //             "Role",
-  //             "Content creator, director, editor"
-  //           ],
-  //           [
-  //             "Client",
-  //             "Restaurants and cafés, including Momo Café"
-  //           ]
-  //         ],
-  //         "skills": [
-  //           "Short-form video",
-  //           "Voiceover",
-  //           "Editing"
-  //         ],
-  //         "media": []
-  //       },
-  //       {
-  //         "id": "ugc",
-  //         "title": "UGC Videos",
-  //         "kind": "UGC",
-  //         "when": "2026 – Present",
-  //         "c": 3,
-  //         "overview": "UGC videos with self-recorded voiceover for restaurants and products, shot and directed.",
-  //         "facts": [
-  //           [
-  //             "Role",
-  //             "Creator, director, voiceover"
-  //           ]
-  //         ],
-  //         "skills": [
-  //           "UGC",
-  //           "Voiceover",
-  //           "Directing"
-  //         ],
-  //         "media": []
-  //       },
-  //       {
-  //         "id": "saudi-ads",
-  //         "title": "Promo Ads & Animated Logos",
-  //         "kind": "Editing and motion",
-  //         "when": "2026",
-  //         "c": 5,
-  //         "overview": "Promotional video ads edited and filmed for a photography company in Saudi Arabia, plus After Effects motion graphics including animated logos for companies.",
-  //         "facts": [
-  //           [
-  //             "Role",
-  //             "Video editor and videographer (freelance)"
-  //           ],
-  //           [
-  //             "Client",
-  //             "Photography company, Saudi Arabia"
-  //           ]
-  //         ],
-  //         "skills": [
-  //           "Video editing",
-  //           "Motion graphics",
-  //           "After Effects"
-  //         ],
-  //         "media": []
-  //       },
-  //       {
-  //         "id": "mascot",
-  //         "title": "Mascot Animations",
-  //         "kind": "Animation",
-  //         "when": "",
-  //         "c": 2,
-  //         "overview": "Animated mascot work.",
-  //         "todo": "Add: the project or client, your role, the tools and a clip.",
-  //         "facts": [],
-  //         "skills": [
-  //           "Animation",
-  //           "Character"
-  //         ],
-  //         "media": []
-  //       }
-  //     ]
-  //   },
-  //   {
-  //     "tools": [
-  //       "Social media content",
-  //       "Paid advertising",
-  //       "Content planning",
-  //       "Scriptwriting"
-  //     ],
-  //     "highlights": [
-  //       "Founder of an online community with 270K+ members",
-  //       "Pages built and managed from A to Z for doctors, real estate and food brands",
-  //       "Marketing and strategic plans for clients in Libya, Saudi Arabia, the UAE, Syria and Jordan",
-  //       "Consumer Behavior & Neuromarketing"
-  //     ],
-  //     "id": "social",
-  //     "num": "03",
-  //     "title": "Game Design & 2D/3D Art",
-  //     "tags": "Social media · Paid ads · Community",
-  //     "desc": "Strategy, content and paid campaigns that grow pages and communities.",
-  //     "tone": 1,
-  //     "items": [
-  //       {
-  //         "id": "community",
-  //         "title": "UR Pets Bazaar Community",
-  //         "kind": "Community building",
-  //         "when": "Online business",
-  //         "c": 4,
-  //         "text": "270K+ members",
-  //         "overview": "An online business with a community of more than 270K members. Solo founder, and first place at the Innovators Care Competition.",
-  //         "facts": [
-  //           [
-  //             "Role",
-  //             "Solo founder"
-  //           ],
-  //           [
-  //             "Community",
-  //             "270K+ members"
-  //           ]
-  //         ],
-  //         "skills": [
-  //           "Community building",
-  //           "Entrepreneurship",
-  //           "Content"
-  //         ],
-  //         "media": []
-  //       },
-  //       {
-  //         "id": "pages",
-  //         "title": "Page Management",
-  //         "kind": "Social media",
-  //         "when": "Freelance",
-  //         "c": 0,
-  //         "overview": "Pages for doctors, real estate and food brands, built and managed from A to Z: content, scriptwriting, marketing and advertising campaigns.",
-  //         "facts": [
-  //           [
-  //             "Role",
-  //             "Page and content management (freelance)"
-  //           ],
-  //           [
-  //             "Clients",
-  //             "Doctors, real estate, food brands"
-  //           ]
-  //         ],
-  //         "skills": [
-  //           "Page management",
-  //           "Content planning",
-  //           "Ad campaigns"
-  //         ],
-  //         "media": []
-  //       },
-  //       {
-  //         "id": "paid-ads",
-  //         "title": "Paid Ad Campaigns",
-  //         "kind": "Digital advertising",
-  //         "when": "2026 – Present",
-  //         "c": 6,
-  //         "overview": "Paid campaigns that promoted restaurant and café videos on social media.",
-  //         "facts": [
-  //           [
-  //             "Role",
-  //             "Content creator and campaign manager"
-  //           ]
-  //         ],
-  //         "skills": [
-  //           "Paid advertising",
-  //           "Campaigns",
-  //           "Short-form video"
-  //         ],
-  //         "media": []
-  //       },
-  //       {
-  //         "id": "strategy",
-  //         "title": "Marketing & Strategy Plans",
-  //         "kind": "Strategy",
-  //         "when": "Freelance",
-  //         "c": 2,
-  //         "text": "Five markets",
-  //         "overview": "Marketing plans, pitches and strategic plans for clients and companies in Libya, Saudi Arabia, the UAE, Syria and Jordan.",
-  //         "facts": [
-  //           [
-  //             "Markets",
-  //             "Libya, Saudi Arabia, UAE, Syria, Jordan"
-  //           ]
-  //         ],
-  //         "skills": [
-  //           "Marketing plans",
-  //           "Pitching",
-  //           "Regional outreach"
-  //         ],
-  //         "media": []
-  //       },
-  //       {
-  //         "id": "creators",
-  //         "title": "Content for Teachers & Creators",
-  //         "kind": "Content creation",
-  //         "when": "Freelance",
-  //         "c": 5,
-  //         "overview": "Content ideas, advertising and marketing for teachers and other content creators.",
-  //         "facts": [
-  //           [
-  //             "Role",
-  //             "Content creator (freelance)"
-  //           ]
-  //         ],
-  //         "skills": [
-  //           "Content ideas",
-  //           "Advertising",
-  //           "Marketing"
-  //         ],
-  //         "media": []
-  //       }
-  //     ]
-  //   },
-  //   {
-  //     "tools": [
-  //       "Branding strategy",
-  //       "Scriptwriting",
-  //       "Community pages",
-  //       "Content creation"
-  //     ],
-  //     "highlights": [
-  //       "Head of Media & Marketing at AIU ICPC, August 2025 – March 2026",
-  //       "Content and campaigns for IEEE AIU since December 2024",
-  //       "Content creator since 2017",
-  //       "Social Media Storytelling: Videos for Instagram & YouTube, Skillshare"
-  //     ],
-  //     "id": "pr",
-  //     "num": "04",
-  //     "title": "Content Strategy & Digital Marketing",
-  //     "tags": "Media teams · Branding · Writing",
-  //     "desc": "Leading media teams and communicating for communities, from branding to the daily content.",
-  //     "tone": 3,
-  //     "items": [
-  //       {
-  //         "id": "icpc-media",
-  //         "title": "AIU ICPC Community",
-  //         "kind": "Head of Media & Marketing",
-  //         "when": "Aug 2025 – Mar 2026",
-  //         "c": 1,
-  //         "text": "Head of Media",
-  //         "overview": "Led the media team and the branding strategy of the community, managed the community page and handled all of its content and publishing.",
-  //         "facts": [
-  //           [
-  //             "Role",
-  //             "Head of Media & Marketing"
-  //           ],
-  //           [
-  //             "Where",
-  //             "Alamein International University"
-  //           ]
-  //         ],
-  //         "skills": [
-  //           "Team leadership",
-  //           "Branding",
-  //           "Community page"
-  //         ],
-  //         "media": []
-  //       },
-  //       {
-  //         "id": "ieee-content",
-  //         "title": "IEEE AIU Student Branch",
-  //         "kind": "Media & Marketing",
-  //         "when": "Dec 2024 – Present",
-  //         "c": 5,
-  //         "text": "IEEE",
-  //         "overview": "Contributes to content creation and campaigns for the student branch.",
-  //         "facts": [
-  //           [
-  //             "Role",
-  //             "Member, Media & Marketing"
-  //           ]
-  //         ],
-  //         "skills": [
-  //           "Content creation",
-  //           "Campaigns"
-  //         ],
-  //         "media": []
-  //       },
-  //       {
-  //         "id": "scripts",
-  //         "title": "Scriptwriting",
-  //         "kind": "Writing",
-  //         "when": "Ongoing",
-  //         "c": 0,
-  //         "overview": "Scripts for TV commercials, restaurant videos and social media pages, written together with the content and marketing plan.",
-  //         "facts": [
-  //           [
-  //             "Role",
-  //             "Scriptwriter"
-  //           ]
-  //         ],
-  //         "skills": [
-  //           "Scriptwriting",
-  //           "Storytelling"
-  //         ],
-  //         "media": []
-  //       },
-  //       {
-  //         "id": "creator",
-  //         "title": "Personal Content Creator",
-  //         "kind": "Content creation",
-  //         "when": "From 2017",
-  //         "c": 3,
-  //         "overview": "A personal Facebook account run as a content creator since 2017.",
-  //         "facts": [
-  //           [
-  //             "Role",
-  //             "Content creator"
-  //           ],
-  //           [
-  //             "Platform",
-  //             "Facebook"
-  //           ]
-  //         ],
-  //         "skills": [
-  //           "Content creation",
-  //           "Audience building"
-  //         ],
-  //         "media": []
-  //       }
-  //     ]
-  //   },
-  //   {
-  //     "tools": [
-  //       "Photography",
-  //       "Filming",
-  //       "Visual direction"
-  //     ],
-  //     "highlights": [
-  //       "Photographer for the AIU ICPC Community",
-  //       "Photography and filming for restaurants and cafés"
-  //     ],
-  //     "id": "photo",
-  //     "num": "05",
-  //     "title": "Leadership, Community & CV",
-  //     "tags": "Photography · Filming",
-  //     "desc": "Photography and filming for communities, restaurants and brands.",
-  //     "tone": 2,
-  //     "items": [
-  //       {
-  //         "id": "icpc-photo",
-  //         "title": "AIU ICPC Photography",
-  //         "kind": "Community photography",
-  //         "when": "Aug 2025 – Mar 2026",
-  //         "c": 3,
-  //         "overview": "Photographer for the AIU ICPC Community, alongside leading its media and marketing.",
-  //         "facts": [
-  //           [
-  //             "Role",
-  //             "Photographer"
-  //           ],
-  //           [
-  //             "Where",
-  //             "Alamein International University"
-  //           ]
-  //         ],
-  //         "skills": [
-  //           "Photography",
-  //           "Community media"
-  //         ],
-  //         "media": []
-  //       },
-  //       {
-  //         "id": "food-photo",
-  //         "title": "Restaurant & Café Photography",
-  //         "kind": "Food photography",
-  //         "when": "2026 – Present",
-  //         "c": 2,
-  //         "overview": "Photography and filming for restaurants and cafés, including Momo Café.",
-  //         "facts": [
-  //           [
-  //             "Role",
-  //             "Photographer and videographer"
-  //           ]
-  //         ],
-  //         "skills": [
-  //           "Photography",
-  //           "Filming"
-  //         ],
-  //         "media": []
-  //       }
-  //     ]
-  //   },
-    
-  //   // {
-  //   //   "id": "events",
-  //   //   "num": "06",
-  //   //   "title": "Event & Communication",
-  //   //   "tags": "Forums · Hackathons · Pitching",
-  //   //   "desc": "Events, forums and competitions I took part in and communicated for.",
-  //   //   "tone": 5,
-  //   //   "tools": [
-  //   //     "Pitching",
-  //   //     "Marketing plan",
-  //   //     "Event communication"
-  //   //   ],
-  //   //   "highlights": [
-  //   //     "Nominated by AIU for Egypt Forum 2026 as an outstanding student",
-  //   //     "Green Loop: pitch, marketing plan, business plan and prototype",
-  //   //     "Game Jam at the Grand Egyptian Museum"
-  //   //   ],
-  //   //   "items": [
-  //   //     {
-  //   //       "id": "egypt-forum",
-  //   //       "title": "Egypt Forum 2026",
-  //   //       "kind": "Nomination",
-  //   //       "when": "5 Oct 2026",
-  //   //       "c": 6,
-  //   //       "text": "Egypt Forum",
-  //   //       "overview": "Nominated by Alamein International University as an outstanding student. The only Faculty of Arts and Design student selected.",
-  //   //       "facts": [
-  //   //         [
-  //   //           "Date",
-  //   //           "5 Oct 2026"
-  //   //         ],
-  //   //         [
-  //   //           "Result",
-  //   //           "Nominated"
-  //   //         ]
-  //   //       ],
-  //   //       "skills": [
-  //   //         "Representation",
-  //   //         "Public dialogue"
-  //   //       ],
-  //   //       "media": []
-  //   //     },
-  //   //     {
-  //   //       "id": "green-loop",
-  //   //       "title": "Green Loop Hackathon",
-  //   //       "kind": "ESF Waste Management",
-  //   //       "when": "Oct 2026",
-  //   //       "c": 4,
-  //   //       "text": "Finalist",
-  //   //       "overview": "Idea owner of an application system for universities. Created the pitch, marketing plan, business plan and prototype. Winner at Alamein International University and finalist in the final stage. Final results on 20 October 2026.",
-  //   //       "facts": [
-  //   //         [
-  //   //           "Role",
-  //   //           "Idea owner"
-  //   //         ],
-  //   //         [
-  //   //           "Result",
-  //   //           "AIU winner, finalist"
-  //   //         ]
-  //   //       ],
-  //   //       "skills": [
-  //   //         "Pitching",
-  //   //         "Marketing plan",
-  //   //         "Business plan",
-  //   //         "Prototype"
-  //   //       ],
-  //   //       "media": []
-  //   //     },
-  //   //     {
-  //   //       "id": "game-jam",
-  //   //       "title": "Game Jam, Grand Egyptian Museum",
-  //   //       "kind": "Competition",
-  //   //       "when": "Oct 2026",
-  //   //       "c": 2,
-  //   //       "text": "Game Jam",
-  //   //       "overview": "Currently participating.",
-  //   //       "facts": [
-  //   //         [
-  //   //           "Status",
-  //   //           "Participating"
-  //   //         ]
-  //   //       ],
-  //   //       "skills": [
-  //   //         "Game design",
-  //   //         "Teamwork"
-  //   //       ],
-  //   //       "media": []
-  //   //     },
-  //   //     {
-  //   //       "id": "events",
-  //   //       "title": "Event Communication",
-  //   //       "kind": "Events",
-  //   //       "when": "",
-  //   //       "c": 1,
-  //   //       "draft": true,
-  //   //       "overview": "Event coverage and communication.",
-  //   //       "todo": "Add the events you photographed or communicated for (name, date, your role) with photos. Remove draft:true when ready.",
-  //   //       "facts": [],
-  //   //       "skills": [
-  //   //         "Event photography",
-  //   //         "Communication"
-  //   //       ],
-  //   //       "media": []
-  //   //     }
-  //   //   ]
-  //   // },
-  //   // {
-  //   //   "id": "games",
-  //   //   "num": "07",
-  //   //   "title": "Game Design",
-  //   //   "tags": "Unity · GDDs · UX/UI",
-  //   //   "desc": "Games designed and programmed in Unity, game design documents, and interface design.",
-  //   //   "tone": 4,
-  //   //   "tools": [
-  //   //     "Unity (C#)",
-  //   //     "Unreal Engine",
-  //   //     "Game design documents",
-  //   //     "Level design",
-  //   //     "UX/UI"
-  //   //   ],
-  //   //   "highlights": [
-  //   //     "Leftover: concept and game design document complete, in development in Unity and Blender",
-  //   //     "Healthy Runner, an educational mobile game built at GMind, June – July 2026",
-  //   //     "Epic Games: Fundamentals of Level Design with Unreal Engine, Introduction to Game Design, Unreal Engine Fundamentals",
-  //   //     "Google UX Design Professional Certificate; UX/UI trainee at the Information Technology Institute"
-  //   //   ],
-  //   //   "items": [
-  //   //     {
-  //   //       "id": "leftover",
-  //   //       "group": "Games",
-  //   //       "title": "Leftover",
-  //   //       "kind": "Game, Unity and Blender",
-  //   //       "when": "In development",
-  //   //       "c": 6,
-  //   //       "overview": "Designed and programmed in Unity and Blender. The concept and game design document are complete, and development is in progress.",
-  //   //       "facts": [
-  //   //         [
-  //   //           "Role",
-  //   //           "Designer and programmer"
-  //   //         ],
-  //   //         [
-  //   //           "Status",
-  //   //           "In development"
-  //   //         ]
-  //   //       ],
-  //   //       "skills": [
-  //   //         "Game design document",
-  //   //         "Unity",
-  //   //         "Blender"
-  //   //       ],
-  //   //       "media": []
-  //   //     },
-  //   //     {
-  //   //       "id": "lost-memory",
-  //   //       "group": "Games",
-  //   //       "title": "The Lost Memory",
-  //   //       "kind": "Game",
-  //   //       "when": "",
-  //   //       "c": 1,
-  //   //       "overview": "A game project.",
-  //   //       "todo": "Add: the concept, your role, the tools, the status and screenshots.",
-  //   //       "facts": [],
-  //   //       "skills": [
-  //   //         "Game design"
-  //   //       ],
-  //   //       "media": []
-  //   //     },
-  //   //     {
-  //   //       "id": "healthy-runner",
-  //   //       "group": "Games",
-  //   //       "title": "Healthy Runner",
-  //   //       "kind": "Educational mobile game",
-  //   //       "when": "Jun – Jul 2026",
-  //   //       "c": 4,
-  //   //       "overview": "An educational mobile game for children, built in Unity at GMind in Alexandria. The core runner mechanics include lane switching and decision-based gates that reward healthy choices.",
-  //   //       "facts": [
-  //   //         [
-  //   //           "Role",
-  //   //           "Game designer and developer trainee"
-  //   //         ],
-  //   //         [
-  //   //           "Studio",
-  //   //           "GMind, Alexandria"
-  //   //         ]
-  //   //       ],
-  //   //       "skills": [
-  //   //         "Unity",
-  //   //         "Game mechanics",
-  //   //         "Educational design"
-  //   //       ],
-  //   //       "media": []
-  //   //     },
-  //   //     {
-  //   //       "id": "prototypes",
-  //   //       "group": "Games",
-  //   //       "title": "Unity Prototypes",
-  //   //       "kind": "Prototypes",
-  //   //       "when": "",
-  //   //       "c": 2,
-  //   //       "overview": "Multiple Unity game prototypes built with object-oriented programming principles.",
-  //   //       "facts": [
-  //   //         [
-  //   //           "Tools",
-  //   //           "Unity"
-  //   //         ]
-  //   //       ],
-  //   //       "skills": [
-  //   //         "OOP",
-  //   //         "Prototyping"
-  //   //       ],
-  //   //       "media": []
-  //   //     },
-  //   //     {
-  //   //       "id": "zigo",
-  //   //       "group": "UX/UI & Web",
-  //   //       "title": "Zigo",
-  //   //       "kind": "UX/UI app",
-  //   //       "when": "",
-  //   //       "c": 5,
-  //   //       "overview": "A student behavior and performance analysis app, adopted by the university president and deans for the new university clinic.",
-  //   //       "facts": [
-  //   //         [
-  //   //           "Role",
-  //   //           "UX/UI design"
-  //   //         ]
-  //   //       ],
-  //   //       "skills": [
-  //   //         "UX/UI",
-  //   //         "Wireframes",
-  //   //         "Research"
-  //   //       ],
-  //   //       "media": []
-  //   //     },
-  //   //     {
-  //   //       "id": "hera",
-  //   //       "group": "UX/UI & Web",
-  //   //       "title": "Hera",
-  //   //       "kind": "UX/UI app",
-  //   //       "when": "",
-  //   //       "c": 0,
-  //   //       "overview": "A UX/UI concept for a women's ride-hailing app.",
-  //   //       "facts": [
-  //   //         [
-  //   //           "Role",
-  //   //           "UX/UI design"
-  //   //         ]
-  //   //       ],
-  //   //       "skills": [
-  //   //         "UX/UI",
-  //   //         "Wireframes",
-  //   //         "Prototyping"
-  //   //       ],
-  //   //       "media": []
-  //   //     },
-  //   //     {
-  //   //       "id": "ur-pets-app",
-  //   //       "group": "UX/UI & Web",
-  //   //       "title": "UR Pets App",
-  //   //       "kind": "UX/UI app",
-  //   //       "when": "University project",
-  //   //       "c": 3,
-  //   //       "overview": "UX/UI design for a pet marketplace and community platform.",
-  //   //       "facts": [
-  //   //         [
-  //   //           "Role",
-  //   //           "UX/UI design"
-  //   //         ]
-  //   //       ],
-  //   //       "skills": [
-  //   //         "UX/UI",
-  //   //         "Wireframes"
-  //   //       ],
-  //   //       "media": []
-  //   //     },
-  //   //     {
-  //   //       "id": "kids-apps",
-  //   //       "group": "UX/UI & Web",
-  //   //       "title": "Kids Learning Apps",
-  //   //       "kind": "UX/UI apps",
-  //   //       "when": "",
-  //   //       "c": 4,
-  //   //       "overview": "Multiple learning apps for children covering math and skills development.",
-  //   //       "facts": [
-  //   //         [
-  //   //           "Role",
-  //   //           "UX/UI design"
-  //   //         ]
-  //   //       ],
-  //   //       "skills": [
-  //   //         "UX/UI",
-  //   //         "Educational design"
-  //   //       ],
-  //   //       "media": []
-  //   //     },
-  //   //     {
-  //   //       "id": "dept-site",
-  //   //       "group": "UX/UI & Web",
-  //   //       "title": "Game Design Department Website",
-  //   //       "kind": "Web UI",
-  //   //       "when": "",
-  //   //       "c": 1,
-  //   //       "overview": "The full website UI for the Game Design department.",
-  //   //       "facts": [
-  //   //         [
-  //   //           "Role",
-  //   //           "UI design"
-  //   //         ]
-  //   //       ],
-  //   //       "skills": [
-  //   //         "Web UI",
-  //   //         "HTML & CSS"
-  //   //       ],
-  //   //       "media": []
-  //   //     }
-  //   //   ]
-  //   // },
-  //   // {
-  //   //   "id": "level",
-  //   //   "num": "08",
-  //   //   "title": "Level Design",
-  //   //   "tags": "Unreal Engine · Unity",
-  //   //   "desc": "Levels built in Unreal Engine and Unity with a focus on gameplay flow.",
-  //   //   "tone": 0,
-  //   //   "tools": [
-  //   //     "Unreal Engine",
-  //   //     "Unity",
-  //   //     "Level design",
-  //   //     "Gameplay flow"
-  //   //   ],
-  //   //   "highlights": [
-  //   //     "Fundamentals of Level Design with Unreal Engine, Epic Games (Jul 2025)",
-  //   //     "Rooftop: a game with four levels, designed and programmed",
-  //   //     "Levels designed in Unreal Engine"
-  //   //   ],
-  //   //   "items": [
-  //   //     {
-  //   //       "id": "unreal-levels",
-  //   //       "group": "Games",
-  //   //       "title": "Unreal Engine Levels",
-  //   //       "kind": "Level design",
-  //   //       "when": "",
-  //   //       "c": 5,
-  //   //       "overview": "Levels designed in Unreal Engine with a focus on gameplay flow.",
-  //   //       "facts": [
-  //   //         [
-  //   //           "Tools",
-  //   //           "Unreal Engine"
-  //   //         ]
-  //   //       ],
-  //   //       "skills": [
-  //   //         "Level design",
-  //   //         "Gameplay flow"
-  //   //       ],
-  //   //       "media": []
-  //   //     },
-  //   //     {
-  //   //       "id": "rooftop",
-  //   //       "group": "Games",
-  //   //       "title": "Rooftop",
-  //   //       "kind": "Game",
-  //   //       "when": "",
-  //   //       "c": 3,
-  //   //       "overview": "A game with four levels, designed and programmed.",
-  //   //       "facts": [
-  //   //         [
-  //   //           "Role",
-  //   //           "Designer and programmer"
-  //   //         ]
-  //   //       ],
-  //   //       "skills": [
-  //   //         "Level design",
-  //   //         "Programming"
-  //   //       ],
-  //   //       "media": []
-  //   //     }
-  //   //   ]
-  //   // },
-  //   // {
-  //   //   "id": "d3",
-  //   //   "num": "09",
-  //   //   "title": "3D Modeling",
-  //   //   "tags": "Blender · ZBrush · High-poly",
-  //   //   "desc": "Blender assets and high-poly characters.",
-  //   //   "tone": 1,
-  //   //   "tools": [
-  //   //     "Blender",
-  //   //     "ZBrush"
-  //   //   ],
-  //   //   "highlights": [
-  //   //     "High-poly character design in Blender and ZBrush",
-  //   //     "3D assets created in Blender for games",
-  //   //     "2D and 3D designs created for university projects"
-  //   //   ],
-  //   //   "items": [
-  //   //     {
-  //   //       "id": "blender-assets",
-  //   //       "title": "Blender Game Assets",
-  //   //       "kind": "3D modeling",
-  //   //       "when": "",
-  //   //       "c": 3,
-  //   //       "overview": "3D characters, environments and game assets created in Blender.",
-  //   //       "todo": "Add: which assets, renders and a turntable video.",
-  //   //       "facts": [
-  //   //         [
-  //   //           "Tools",
-  //   //           "Blender"
-  //   //         ]
-  //   //       ],
-  //   //       "skills": [
-  //   //         "3D modeling",
-  //   //         "Asset creation",
-  //   //         "Game-ready assets"
-  //   //       ],
-  //   //       "media": []
-  //   //     },
-  //   //     {
-  //   //       "id": "high-poly",
-  //   //       "title": "High-Poly Character Design",
-  //   //       "kind": "3D characters",
-  //   //       "when": "",
-  //   //       "c": 1,
-  //   //       "overview": "3D characters created in Blender and ZBrush.",
-  //   //       "todo": "Add: which characters, the sculpting workflow and renders.",
-  //   //       "facts": [
-  //   //         [
-  //   //           "Tools",
-  //   //           "Blender, ZBrush"
-  //   //         ]
-  //   //       ],
-  //   //       "skills": [
-  //   //         "High-poly modeling",
-  //   //         "Character design",
-  //   //         "Sculpting"
-  //   //       ],
-  //   //       "media": []
-  //   //     },
-  //   //     {
-  //   //       "id": "design-2d3d",
-  //   //       "title": "2D & 3D Design",
-  //   //       "kind": "Design",
-  //   //       "when": "University projects",
-  //   //       "c": 5,
-  //   //       "overview": "2D and 3D designs created for university projects.",
-  //   //       "facts": [
-  //   //         [
-  //   //           "Tools",
-  //   //           "Blender"
-  //   //         ]
-  //   //       ],
-  //   //       "skills": [
-  //   //         "2D design",
-  //   //         "3D design"
-  //   //       ],
-  //   //       "media": []
-  //   //     }
-  //   //   ]
-  //   // },
-  //   // {
-  //   //   "id": "env",
-  //   //   "num": "10",
-  //   //   "title": "Environment Art",
-  //   //   "tags": "Blender · Unity · Sketches",
-  //   //   "desc": "Environments for game worlds, from sketches to 3D.",
-  //   //   "tone": 3,
-  //   //   "tools": [
-  //   //     "Blender",
-  //   //     "Unity",
-  //   //     "Unreal Engine",
-  //   //     "Sketching"
-  //   //   ],
-  //   //   "highlights": [
-  //   //     "3D environments for Leftover, built in Blender for Unity",
-  //   //     "Environment sketches for game worlds",
-  //   //     "A Blender mini world with a planet, a vehicle and a desert environment"
-  //   //   ],
-  //   //   "items": [
-  //   //     {
-  //   //       "id": "env-sketches",
-  //   //       "title": "Environment Sketches",
-  //   //       "kind": "Concept work",
-  //   //       "when": "",
-  //   //       "c": 4,
-  //   //       "overview": "Environment sketches for game worlds.",
-  //   //       "todo": "Add: which worlds, the sketches and how they became 3D.",
-  //   //       "facts": [],
-  //   //       "skills": [
-  //   //         "Environment design",
-  //   //         "Sketching"
-  //   //       ],
-  //   //       "media": []
-  //   //     },
-  //   //     {
-  //   //       "id": "leftover-env",
-  //   //       "title": "Leftover Environments",
-  //   //       "kind": "3D environments",
-  //   //       "when": "In development",
-  //   //       "c": 6,
-  //   //       "overview": "3D environments for the game Leftover, built in Blender for Unity.",
-  //   //       "facts": [
-  //   //         [
-  //   //           "Game",
-  //   //           "Leftover"
-  //   //         ],
-  //   //         [
-  //   //           "Tools",
-  //   //           "Blender, Unity"
-  //   //         ]
-  //   //       ],
-  //   //       "skills": [
-  //   //         "Environment art",
-  //   //         "Blender",
-  //   //         "Unity"
-  //   //       ],
-  //   //       "media": []
-  //   //     },
-  //   //     {
-  //   //       "id": "camel-world",
-  //   //       "title": "Camel Robot Mini World",
-  //   //       "kind": "3D scene",
-  //   //       "when": "Personal project",
-  //   //       "c": 2,
-  //   //       "overview": "A Blender mini world: a planet with a camel-inspired robot, a vehicle and a desert environment.",
-  //   //       "todo": "Confirm the status and add renders.",
-  //   //       "facts": [
-  //   //         [
-  //   //           "Tools",
-  //   //           "Blender"
-  //   //         ]
-  //   //       ],
-  //   //       "skills": [
-  //   //         "Modeling",
-  //   //         "Environment",
-  //   //         "Props"
-  //   //       ],
-  //   //       "media": []
-  //   //     }
-  //   //   ]
-  //   // }
-  // ],
   "roles": [
     {
       "when": "Aug 2025 – Mar 2026",
@@ -2031,7 +1189,7 @@ window.SITE = {
     }
   ],
   "about": {
-    "portrait": "assets/img/IMG_20261014_112631_375.jpg",
+    "portrait": "assets/img/Maryam.jpeg",
     "bio": "Content creator since 2017 and graphic and packaging designer since 2018. Founder of an online community of more than 270K members. Video director, social media manager and game designer, studying Game Design and Programming at Alamein International University.",
     "education": [
       {

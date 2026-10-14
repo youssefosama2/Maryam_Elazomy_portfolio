@@ -28,14 +28,72 @@
   }
   function frame(item, cls) {
     var m = mediaOf(item.media), first = m[0], inner = "";
-    if (item.text) inner += '<span class="big">' + esc(item.text) + "</span>";
-    if (first && first.type === "image") inner += '<img src="' + esc(first.src) + '" alt="' + esc(item.title || "") + '" loading="lazy" onerror="this.remove()">';
-    else if (first && first.poster) inner += '<img src="' + esc(first.poster) + '" alt="' + esc(item.title || "") + '" loading="lazy" onerror="this.remove()"><span class="tag">Video</span>';
-    else if (first) inner += '<span class="tag">Video</span>';
-    else if (!item.text) inner += '<span class="ph">' + esc(item.kind || "") + "</span>";
-    return '<span class="fr ' + cls + '" style="' + toneStyle(item.c) + '">' + inner + "</span>";
-  }
 
+    if (item.text) {
+      inner += '<span class="big">' + esc(item.text) + "</span>";
+    }
+
+    if (first && first.type === "video") {
+      inner +=
+        '<video class="work-video" muted playsinline loop preload="metadata" aria-label="' +
+        esc(item.title || "") +
+        '" src="' +
+        esc(first.src) +
+        '"></video>';
+    } else if (first && first.type === "image") {
+      inner +=
+        '<img src="' +
+        esc(first.src) +
+        '" alt="' +
+        esc(item.title || "") +
+        '" loading="lazy" onerror="this.remove()">';
+    } else if (!item.text) {
+      inner += '<span class="ph">' + esc(item.kind || "") + "</span>";
+    }
+
+    return (
+      '<span class="fr ' +
+      cls +
+      '" style="' +
+      toneStyle(item.c) +
+      '">' +
+      inner +
+      "</span>"
+    );
+  }
+  function setupWorkVideos() {
+    var videos = $$(".work-video");
+
+    if (!videos.length) return;
+
+    if (!("IntersectionObserver" in window)) {
+      videos.forEach(function (video) {
+        video.play().catch(function () {});
+      });
+      return;
+    }
+
+    var observer = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          var video = entry.target;
+
+          if (entry.isIntersecting) {
+            video.play().catch(function () {});
+          } else {
+            video.pause();
+          }
+        });
+      },
+      {
+        threshold: 0.25
+      }
+    );
+
+    videos.forEach(function (video) {
+      observer.observe(video);
+    });
+  }
   /* ---------- hero ---------- */
   var eyebrowEl = $("#eyebrow");
   var nameEl = $("#name");
@@ -75,8 +133,6 @@
   /* ---------- tiles ---------- */
   var SECTIONS = S.sections.map(function (s) { s.items = s.items.filter(function (it) { return DEV || !it.draft; }); return s; });
   var TILES = SECTIONS.map(function (s) { return { id: s.id, num: s.num, title: s.title, tags: s.tags, tone: s.tone, cover: s.cover || coverOf(s) }; });
-  TILES.push({ id: "leadership", num: "11", title: "Leadership & Recognition", tags: "Roles · Awards · Nominations", tone: 5 });
-  TILES.push({ id: "about", num: "12", title: "About & CV", tags: "Experience · Education · Toolkit", tone: 2 });
   function coverOf(s) {
     for (var i = 0; i < s.items.length; i++) { var m = mediaOf(s.items[i].media)[0]; if (m && m.type === "image") return m.src; if (m && m.poster) return m.poster; }
     return "";
@@ -86,7 +142,7 @@
     return '<button class="tile' + (t.cover ? " has-img" : "") + '" type="button" data-id="' + t.id + '" data-cur="1" style="--b:' + tn.b + ";--f:" + tn.f + ";--i:" + i + '">' +
       (t.cover ? '<img src="' + esc(t.cover) + '" alt="" onerror="this.remove()"><span class="shade"></span>' : "") +
       '<span class="num">' + t.num + '</span><span class="go" aria-hidden="true">&nearr;</span>' +
-      '<span class="txt"><span class="tt">' + esc(t.title) + '</span><span class="tg">' + esc(t.tags) + "</span></span></button>";
+      '<span class="txt"><span class="tt"></span><span class="tg">' +  "</span></span></button>";
   }).join("");
 
 /* ---------- facts, marquee, contact ---------- */
@@ -375,7 +431,7 @@ if (contactForm && contactStatus) {
         '<div class="about-layout">' +
 
           '<div class="about-portrait">' +
-            '<img src="' + esc(A.portrait || "assets/img/IMG_20261014_112631_375.jpg") + '" ' +
+            '<img src="' + esc(A.portrait || "assets/img/IMG_20261014_112631_375.jpgMaryam.jpeg") + '" ' +
             'alt="Maryam Elazomy portrait" loading="lazy" ' +
             'onerror="this.parentElement.remove()">' +
           '</div>' +
@@ -395,8 +451,6 @@ if (contactForm && contactStatus) {
           '</div>' +
 
         '</div>';
-
-
         main =
         '<h3 class="sub">Experience</h3><ul class="rows">' +
         A.experience.map(rowHtml).join("") +
@@ -426,6 +480,7 @@ if (contactForm && contactStatus) {
         }
         body.innerHTML = '<div class="p-wrap"><div class="p-grid"><aside class="p-side">' + side + '</aside><div class="p-main">' + main + "</div></div></div>";
         body.scrollTop = 0;
+        setupWorkVideos();
       }
 
   function showItem(i, m) {
@@ -557,4 +612,68 @@ if (contactForm && contactStatus) {
     });
   }
 
+})();
+/* ---------- Hero Gallery Scroll Animation ---------- */
+(() => {
+  const gallery = document.querySelector("#heroGallery");
+
+  if (!gallery) return;
+
+  const cards = [...gallery.querySelectorAll(".gallery-card")];
+
+  const reducedMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)"
+  );
+
+  if (reducedMotion.matches) return;
+
+  let ticking = false;
+
+  function updateGallery() {
+  const rect = gallery.getBoundingClientRect();
+  const scrollDistance = Math.max(0, -rect.top);
+
+  const progress = Math.min(scrollDistance / (window.innerHeight * 0.8), 1);
+
+    // ميل المجموعة تدريجيًا أثناء السكرول
+    const tiltX = -progress * 45;
+    const rotateZ = -progress * 8;
+    const scale = 1 - progress * 0.12;
+
+    gallery.style.transform = `
+      perspective(1400px)
+      rotateX(${tiltX}deg)
+      rotateZ(${rotateZ}deg)
+      scale(${scale})
+    `;
+
+    // حركة مستقلة وخفيفة لكل صورة
+    cards.forEach((card) => {
+      const speed = Number(card.dataset.speed) || 0;
+      const distance = (progress - 0.5) * 100;
+
+      const moveY = distance * speed * 10;
+      const rotateY = distance * speed * 0.5;
+
+      card.style.translate = `0 ${moveY}px`;
+      card.style.rotate = `${rotateY}deg`;
+    });
+
+    ticking = false;
+  }
+
+  function requestUpdate() {
+    if (ticking) return;
+
+    ticking = true;
+    requestAnimationFrame(updateGallery);
+  }
+
+  window.addEventListener("scroll", requestUpdate, {
+    passive: true,
+  });
+
+  window.addEventListener("resize", requestUpdate);
+
+  updateGallery();
 })();

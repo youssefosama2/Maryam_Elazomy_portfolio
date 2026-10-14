@@ -989,3 +989,27 @@ width: 100%;
 transition: none;
 }
 }
+.work-video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+}
+.fr {
+  position: relative;
+  overflow: hidden;
+}
+/* Hero Gallery — Scroll 3D Animation */
+#heroGallery {
+  perspective: 1400px;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+#heroGallery .gallery-card {
+  will-change: transform;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
