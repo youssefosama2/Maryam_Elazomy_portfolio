@@ -302,10 +302,10 @@ if (contactForm && contactStatus) {
     if (submitText) submitText.textContent = "Sending...";
 
     emailjs.sendForm(
-      "service_bztuwfs",
-      "template_ghmy4ib",
+      "service_pbnx118",
+      "template_ac4wpoj",
       contactForm,
-      { publicKey: "anr-O9OKANGHbavgV" }
+      { publicKey: "lDLMDrd9R8yz2ps7X" }
     )
     .then(function () {
       contactStatus.textContent =
