@@ -152,7 +152,7 @@ window.SITE = {
           ],
           "media": [
             {
-              "src": "assets/video/4_5942565747732521436.mp4",
+              "src": "assets/video/4_5942565747732521436.MP4",
               "caption": "Restaurant & Café Promotional Video"
             }
           ]

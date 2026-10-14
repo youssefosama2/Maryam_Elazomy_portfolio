@@ -480,7 +480,7 @@ if (contactForm && contactStatus) {
         }
         body.innerHTML = '<div class="p-wrap"><div class="p-grid"><aside class="p-side">' + side + '</aside><div class="p-main">' + main + "</div></div></div>";
         body.scrollTop = 0;
-        setupWorkVideos();
+        // setupWorkVideos();
       }
 
   function showItem(i, m) {
