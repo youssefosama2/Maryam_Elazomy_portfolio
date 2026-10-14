@@ -392,8 +392,7 @@ if (contactForm && contactStatus) {
 
   /* ---------- panel ---------- */
   var dlg = $("#panel"), body = $("#pBody"), back = $("#pBack"), crumb = $("#pCrumb");
-  var state = { id: null, i: 0, m: 0, lastFocus: null };
-
+  var state = { id: null, i: 0, m: 0, lastFocus: null, loadToken: 0};
   function rowHtml(r) {
     var left = (r.when ? '<p class="when">' + esc(r.when) + "</p>" : "") + '<p class="ttl">' + esc(r.title) + "</p>" + (r.org ? '<p class="org">' + esc(r.org) + "</p>" : "");
     var right = (r.result ? '<p class="res">' + esc(r.result) + "</p>" : "") + (r.note ? '<p class="note">' + esc(r.note) + "</p>" : "");
@@ -401,6 +400,52 @@ if (contactForm && contactStatus) {
   }
   function find(id) { return SECTIONS.filter(function (s) { return s.id === id; })[0]; }
   function setTop(showBack, text) { back.hidden = !showBack; crumb.textContent = text; }
+  function showSectionLoader(title) {
+    body.innerHTML =
+      '<div class="section-loader" role="status" aria-live="polite">' +
+        '<span class="section-loader-spinner" aria-hidden="true"></span>' +
+        '<p>Loading ' + esc(title) + '...</p>' +
+      '</div>';
+  }
+
+  function waitForSectionMedia(container, timeout) {
+    timeout = timeout || 5000;
+
+    var images = $$("img", container);
+    var videos = $$(".work-video", container);
+    var tasks = [];
+
+    images.forEach(function (img) {
+      if (img.complete) return;
+
+      tasks.push(
+        new Promise(function (resolve) {
+          img.addEventListener("load", resolve, { once: true });
+          img.addEventListener("error", resolve, { once: true });
+        })
+      );
+    });
+
+    videos.forEach(function (video) {
+      if (video.readyState >= 2 || video.error) return;
+
+      tasks.push(
+        new Promise(function (resolve) {
+          video.addEventListener("loadeddata", resolve, { once: true });
+          video.addEventListener("canplay", resolve, { once: true });
+          video.addEventListener("error", resolve, { once: true });
+          video.addEventListener("abort", resolve, { once: true });
+        })
+      );
+    });
+
+    return Promise.race([
+      Promise.all(tasks),
+      new Promise(function (resolve) {
+        setTimeout(resolve, timeout);
+      })
+    ]);
+  }
 
   function showSection(id) {
     state.id = id; state.i = -1;
@@ -478,9 +523,58 @@ if (contactForm && contactStatus) {
 
         setTop(false, "12  About & CV");
         }
-        body.innerHTML = '<div class="p-wrap"><div class="p-grid"><aside class="p-side">' + side + '</aside><div class="p-main">' + main + "</div></div></div>";
-        body.scrollTop = 0;
-        // setupWorkVideos();
+var sectionHTML =
+  '<div class="p-wrap section-loading-content">' +
+    '<div class="p-grid">' +
+      '<aside class="p-side">' + side + '</aside>' +
+      '<div class="p-main">' + main + '</div>' +
+    '</div>' +
+  '</div>';
+
+var currentSectionId = id;
+var currentLoadToken = ++state.loadToken;
+
+showSectionLoader(s ? s.title : "Section");
+body.scrollTop = 0;
+
+requestAnimationFrame(function () {
+  if (
+    state.id !== currentSectionId ||
+    state.loadToken !== currentLoadToken ||
+    !dlg.open
+  ) {
+    return;
+  }
+
+  // إنشاء المحتوى داخل الصفحة لبدء تحميل الوسائط فعليًا.
+  var content = document.createElement("div");
+  content.innerHTML = sectionHTML;
+  content.className = "section-loading-content";
+  content.style.visibility = "hidden";
+
+  body.appendChild(content);
+
+  // ننتظر تحميل الصور والفيديوهات أو انتهاء المهلة.
+  waitForSectionMedia(content, 5000).then(function () {
+    if (
+      state.id !== currentSectionId ||
+      state.loadToken !== currentLoadToken ||
+      !dlg.open
+    ) {
+      content.remove();
+      return;
+    }
+
+    // إظهار المحتوى وإزالة شاشة التحميل.
+    body.innerHTML = "";
+    body.appendChild(content);
+
+    content.style.visibility = "visible";
+    body.scrollTop = 0;
+
+    // setupWorkVideos();
+  });
+});
       }
 
   function showItem(i, m) {

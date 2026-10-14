@@ -110,6 +110,43 @@ window.SITE = {
       ],
       "items": [
         {
+          "id": "social-campaigns",
+          "title": "Pre-Production Storyboard & Scriptwriting",
+          "kind": "Pre-Production & Visual Planning",
+          "when": "",
+          "c": 1,
+          "overview": "Detailed pre-production storyboards, scene breakdown, and scriptwriting developed for video direction and AI-assisted scene generation. Showcases the complete planning phase from concept to final visual execution.",
+          "todo": "",
+          "facts": [
+            ["Role", "Scriptwriter & Storyboard Artist"]
+          ],
+          "skills": [
+            "Storyboarding",
+            "Scriptwriting",
+            "Scene Planning",
+            "Pre-Production",
+            "Visual Direction"
+          ],
+          "media": [
+            {
+              "src": "assets/img/IMG_20261014_112553_016.jpg",
+              "caption": "Storyboard & Scriptwriting — Image 1"
+            },
+            {
+              "src": "assets/img/IMG_20261014_112553_044.jpg",
+              "caption": "Storyboard & Scriptwriting — Image 2"
+            },
+            {
+              "src": "assets/img/IMG_20261014_112553_389.jpg",
+              "caption": "Storyboard & Scriptwriting — Image 3"
+            },
+            {
+              "src": "assets/img/IMG_20261014_112553_553.jpg",
+              "caption": "Storyboard & Scriptwriting — Image 4"
+            }
+          ]
+        },     
+        {
           "id": "alex-foods",
           "title": "Alex Foods TV Commercials",
           "kind": "Video Direction",
@@ -135,219 +172,200 @@ window.SITE = {
         },
         {
           "id": "restaurants",
-          "title": "Restaurant & Café Videos",
+          "title": "Sally Pharmacies App Promotional Video",
           "kind": "Commercial Video",
           "when": "2026 – Present",
           "c": 1,
-          "overview": "Short-form promotional videos for restaurants and cafés, from filming and directing to editing and voiceover.",
+          "overview": "A promotional animated/explainer video for Sally Pharmacies app, highlighting online prescription ordering, fast delivery, and home healthcare services.",
           "facts": [
-            ["Role", "Content Creator, Director & Editor"],
-            ["Client", "Restaurants and Cafés"]
+            ["Role", "Scriptwriting, & Animation Direction"],
+            ["Client", "Sally Pharmacies"]
           ],
           "skills": [
-            "Filming",
-            "Directing",
-            "Editing",
-            "Voiceover"
+            "Scriptwriting",
+            "Animation Direction",
+            "Video Production",
+            "Explainer Videos"
           ],
           "media": [
             {
               "src": "assets/video/4_5942565747732521436.MP4",
-              "caption": "Restaurant & Café Promotional Video"
+              "caption": "Sally Pharmacies: Healthcare at Your Doorstep"
             }
           ]
         },
         {
           "id": "ugc",
-          "title": "UGC Videos",
-          "kind": "User-Generated Content",
+          "title": "AI-Powered Promotional Video for Custom Wedding Invitations",
+          "kind": "AI Promotional Video",
           "when": "2026 – Present",
           "c": 3,
-          "overview": "UGC-style videos for restaurants and products, featuring original filming, direction and self-recorded voiceovers.",
+          "overview": "An AI-powered promotional video showcasing custom wedding invitation cards, combining AI prompt engineering, creative video direction, and digital marketing content to present personalized invitation designs.",
           "facts": [
-            ["Role", "UGC Creator & Director"]
+            ["Role", "AI Prompt Engineering, Video Direction & Digital Marketing Content"]
           ],
           "skills": [
-            "UGC",
-            "Voiceover",
-            "Directing",
-            "Storytelling"
+            "AI Prompt Engineering",
+            "Video Direction",
+            "Digital Marketing",
+            "Creative Storytelling"
           ],
           "media": [
             {
               "src": "assets/video/4_5942565747732521431.MOV",
-              "caption": "UGC Video"
+              "caption": "AI-Powered Promotional Video for Custom Wedding Invitations"
             }
           ]
         },
         {
           "id": "saudi-ads",
-          "title": "Promo Ads & Animated Logos",
-          "kind": "Promotional Video",
+          "title": "\"LEFTOVER\" Game Cinematic Trailer",
+          "kind": "Game Cinematic Trailer",
           "when": "2026",
           "c": 5,
-          "overview": "Promotional video ads and motion graphics created for commercial clients, including animated company logos.",
+          "overview": "Cinematic game trailer for 'LEFTOVER', an original indie game project. Developed entirely through custom 3D environment modeling, character creation, scriptwriting, and AI-assisted cinematic generation.",
           "facts": [
-            ["Role", "Video Editor & Videographer"],
-            ["Client", "Photography Company, Saudi Arabia"]
+            ["Role", "Game Designer, 3D Modeler & Cinematic Director"],
+            ["Client", "Personal Game Project (LEFTOVER)"]
           ],
           "skills": [
-            "Video Editing",
-            "Motion Graphics",
-            "After Effects"
+            "Game Design",
+            "3D Modeling",
+            "Cinematic Direction",
+            "AI Video Generation",
+            "Scriptwriting"
           ],
           "media": [
             {
               "src": "assets/video/IMG_7840.MOV",
-              "caption": "Promotional Ads & Motion Graphics"
+              "caption": "\"LEFTOVER\" Game Cinematic Trailer"
             }
           ]
         },
         {
           "id": "mascot",
-          "title": "Mascot Animations",
-          "kind": "Character Animation",
+          "title": "\"A Hat in Time\" Neon City Remake - Concept Trailer",
+          "kind": "Game Concept Trailer",
           "when": "",
           "c": 2,
-          "overview": "Animated mascot concepts and character-focused video content.",
-          "todo": "Replace this sample description with the actual project details.",
-          "facts": [],
+          "overview": "A conceptual remake trailer reimagining a classic indie game in a futuristic Neon City aesthetic. Conceived, designed, and directed entirely by me, utilizing custom AI generation and narrative scriptwriting as part of an academic game design project.",
+          "todo": "",
+          "facts": [
+            ["Role", "Game Concept Designer & Trailer Director"],
+            ["Client", "University Game Design Project"]
+          ],
           "skills": [
-            "Animation",
-            "Character Design",
-            "Motion Graphics"
+            "Game Concept",
+            "AI Generation",
+            "Trailer Direction",
+            "Game Design Project",
+            "Visual"
           ],
           "media": [
             {
               "src": "assets/video/4_5890821832881217117.MOV",
-              "caption": "Mascot Animation"
+              "caption": "\"A Hat in Time\" Neon City Remake - Concept Trailer"
             }
           ]
         },
         {
           "id": "brand-commercials",
-          "title": "Brand Commercials",
-          "kind": "Commercial Production",
+          "title": "\"Anti-Bullying\" Narrative Short Story",
+          "kind": "Narrative Short Film",
           "when": "",
           "c": 4,
-          "overview": "Sample project for brand-focused commercial videos, showcasing product presentation, visual storytelling and editing.",
-          "todo": "Temporary project name and description — replace with the actual project details.",
+          "overview": "A self-produced narrative short film addressing anti-bullying. Conceived, directed, and executed entirely by me—from initial storyboard sketching and scene design, through AI prompt engineering, to sound system curation and editing.",
+          "todo": "",
           "facts": [
-            ["Role", "Video Director & Editor"]
+            ["Client", "University Academic Project"],
+            ["Role", "Director, Concept Artist & Sound Designer"]
           ],
           "skills": [
-            "Commercial Production",
             "Visual Storytelling",
-            "Editing"
+            "AI Generation",
+            "Sound Design",
+            "Directing",
+            "Storyboarding"
           ],
           "media": [
             {
               "src": "assets/video/4_5942565747732521452.MOV",
-              "caption": "Brand Commercial"
+              "caption": "\"Anti-Bullying\" Narrative Short Story"
             }
           ]
         },
         {
           "id": "product-videos",
-          "title": "Product Promotional Videos",
-          "kind": "Product Video",
+          "title": "Product Promotional Video",
+          "kind": "Product Promotional Video",
           "when": "",
           "c": 0,
-          "overview": "Sample project featuring promotional product videos designed to highlight product features through engaging visuals.",
-          "todo": "Temporary project name and description — replace with the actual project details.",
+          "overview": "A promotional product video highlighting event floral arrangements and details through engaging visuals, refined editing, and carefully curated music selection.",
+          "todo": "",
           "facts": [
-            ["Role", "Videographer & Editor"]
+            ["Role", "Video Editor & Music Curator"]
           ],
           "skills": [
             "Product Videography",
             "Editing",
+            "Music Curation",
             "Creative Direction"
           ],
           "media": [
             {
               "src": "assets/video/VID_20261014_023031_408.mp4.mov",
-              "caption": "Product Promotional Video"
+              "caption": "Wedding & Event Product Showcase"
             }
           ]
         },
         {
           "id": "social-campaigns",
-          "title": "Social Media Video Campaigns",
-          "kind": "Social Media Campaign",
+          "title": "\"Illusion of Control\" Animated Short Film",
+          "kind": "Animated Short Film",
           "when": "",
           "c": 1,
-          "overview": "Sample project for short-form video campaigns created to support social media marketing and brand awareness.",
-          "todo": "Temporary project name and description — replace with the actual project details.",
+          "overview": "An original narrative short film conceived, directed, and executed entirely by me—from the core concept and storyboard sketching to scene design and full video editing.",
+          "todo": "",
           "facts": [
-            ["Role", "Video Creator & Editor"]
+            ["Role", "Concept Creator, Director & Editor"]
           ],
           "skills": [
-            "Social Media Content",
-            "Short-Form Video",
-            "Editing"
+            "Visual Storytelling",
+            "Concept Art",
+            "Video Editing",
+            "Directing",
+            "Short Film"
           ],
           "media": [
             {
               "src": "assets/video/4_5942565747732521445.MOV",
-              "caption": "Social Media Video Campaign"
+              "caption": "\"Illusion of Control\" Animated Short Film"
             }
           ]
         },
         {
           "id": "social-campaigns",
-          "title": "Social Media Video Campaigns",
-          "kind": "Social Media Campaign",
+          "title": "\"Momo Italian Cafe\" Grand Opening UGC Campaign",
+          "kind": "Influencer Marketing Campaign",
           "when": "",
           "c": 1,
-          "overview": "Sample project for short-form video campaigns created to support social media marketing and brand awareness.",
-          "todo": "Temporary project name and description — replace with the actual project details.",
+          "overview": "A self-produced influencer marketing and social media coverage campaign for the grand opening of Momo Italian Cafe's new branch in Egypt. Conceived, filmed, directed, and edited entirely by me to drive brand awareness and engagement.",
+          "todo": "",
           "facts": [
-            ["Role", "Video Creator & Editor"]
+            ["Client", "Momo Italian Cafe (Egypt Branch)"],
+            ["Role", "Content Creator, Videographer & Editor"]
           ],
           "skills": [
+            "Influencer Marketing",
+            "UGC Campaign",
+            "Videography",
             "Social Media Content",
-            "Short-Form Video",
-            "Editing"
+            "Video Editing"
           ],
           "media": [
             {
               "src": "assets/video/4_5942757277504119672.MOV",
-              "caption": "Social Media Video Campaign"
-            }
-          ]
-        },
-        {
-          "id": "social-campaigns",
-          "title": "Social Media Video Campaigns",
-          "kind": "Social Media Campaign",
-          "when": "",
-          "c": 1,
-          "overview": "Sample project for short-form video campaigns created to support social media marketing and brand awareness.",
-          "todo": "Temporary project name and description — replace with the actual project details.",
-          "facts": [
-            ["Role", "Video Creator & Editor"]
-          ],
-          "skills": [
-            "Social Media Content",
-            "Short-Form Video",
-            "Editing"
-          ],
-          "media": [
-            {
-              "src": "assets/img/IMG_20261014_112553_016.jpg",
-              "caption": "Image 1"
-            },
-            {
-              "src": "assets/img/IMG_20261014_112553_044.jpg",
-              "caption": "Image 2"
-            },
-            {
-              "src": "assets/img/IMG_20261014_112553_389.jpg",
-              "caption": "Image 3"
-            },
-            {
-              "src": "assets/img/IMG_20261014_112553_553.jpg",
-              "caption": "Image 4"
+              "caption": "\"Momo Italian Cafe\" Grand Opening UGC Campaign"
             }
           ]
         }
