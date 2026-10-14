@@ -142,7 +142,7 @@
     return '<button class="tile' + (t.cover ? " has-img" : "") + '" type="button" data-id="' + t.id + '" data-cur="1" style="--b:' + tn.b + ";--f:" + tn.f + ";--i:" + i + '">' +
       (t.cover ? '<img src="' + esc(t.cover) + '" alt="" onerror="this.remove()"><span class="shade"></span>' : "") +
       '<span class="num">' + t.num + '</span><span class="go" aria-hidden="true">&nearr;</span>' +
-      '<span class="txt"><span class="tt"></span><span class="tg">' +  "</span></span></button>";
+      '<span class="txt"><span class="tt">' + esc(t.title) + '</span><span class="tg">' + esc(t.tags) + "</span></span></button>";
   }).join("");
 
 /* ---------- facts, marquee, contact ---------- */
