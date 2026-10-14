@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campione | Creative Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://images.unsplash.com">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+  <!-- Hero Section -->
+  <main class="hero" id="home">
+    <div class="hero-gallery" id="projects">
+
+      <!-- Background Images -->
+      <div class="gallery-card card-top" data-speed="0.025">
+        <img
+          src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=600&q=85"
+          alt="Modern architecture"
+        />
+      </div>
+
+      <div class="gallery-card card-clock" data-speed="-0.035">
+        <img
+          src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=600&q=85"
+          alt="Minimal interior design"
+        />
+      </div>
+
+      <div class="gallery-card card-flower" data-speed="0.045">
+        <img
+          src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=600&q=85"
+          alt="Pink flowers"
+        />
+      </div>
+
+      <div class="gallery-card card-kitchen" data-speed="-0.025">
+        <img
+          src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=700&q=85"
+          alt="Modern warm kitchen"
+        />
+      </div>
+
+      <div class="gallery-card card-bedroom" data-speed="0.035">
+        <img
+          src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=700&q=85"
+          alt="Minimal bedroom"
+        />
+      </div>
+
+      <div class="gallery-card card-shirt" data-speed="-0.045">
+        <img
+          src="https://images.unsplash.com/photo-1598554747436-c9293d6a588f?auto=format&fit=crop&w=600&q=85"
+          alt="Minimal fashion"
+        />
+      </div>
+
+      <div class="gallery-card card-bottom" data-speed="0.025">
+        <img
+          src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=600&q=85"
+          alt="Beauty product photography"
+        />
+      </div>
+
+      <div class="gallery-card card-plant" data-speed="-0.035">
+        <img
+          src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=600&q=85"
+          alt="Plants and interior"
+        />
+      </div>
+
+      <!-- Main Image -->
+      <div class="gallery-card card-main" data-speed="0.015">
+        <img
+          src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=90"
+          alt="Creative fashion portrait"
+        />
+      </div>
+
+    </div>
+
+    <!-- Optional Footer Badge -->
+    <a
+      href="#contact"
+      class="made-badge"
+      aria-label="Contact us"
+    >
+      <span class="badge-icon">↗</span>
+      <span>Let's Connect</span>
+    </a>
+  </main>
+
+  <section class="video-portfolio" id="videoPortfolio">
+  <div class="video-portfolio__container">
+
+    <div class="video-portfolio__heading">
+      <span class="video-portfolio__eyebrow">SELECTED WORK</span>
+      <h2>Stories in <span>Motion.</span></h2>
+      <p>
+        A collection of games, cinematic experiences, and creative experiments.
+      </p>
+    </div>
+
+    <div class="video-grid">
+
+      <!-- Video 1 -->
+      <article class="video-card">
+        <div class="video-card__media">
+          <video
+            controls
+            preload="none"
+            playsinline
+            poster="assets/images/game-trailer.webp"
+          >
+            <source
+              src="assets\video\IMG_1147.MP4"
+              type="video/mp4"
+            >
+            Your browser does not support HTML5 video.
+          </video>
+        </div>
+
+        <div class="video-card__info">
+          <span class="video-card__category">GAME DESIGN</span>
+          <h3>Game Trailer</h3>
+          <p>A cinematic look into the game experience.</p>
+        </div>
+      </article>
+
+      <!-- Video 2 -->
+      <article class="video-card">
+        <div class="video-card__media">
+          <video
+            controls
+            preload="none"
+            playsinline
+            poster="assets\video\4_5890821832881217114.MOV"
+          >
+            <source
+              src="assets\video\IMG_0068.MOV"
+              type="video/MOV"
+            >
+            Your browser does not support HTML5 video.
+          </video>
+        </div>
+
+        <div class="video-card__info">
+          <span class="video-card__category">GAMEPLAY</span>
+          <h3>Gameplay Showcase</h3>
+          <p>A preview of the gameplay and mechanics.</p>
+        </div>
+      </article>
+
+      <!-- Video 3 -->
+      <article class="video-card">
+        <div class="video-card__media">
+          <video
+            controls
+            preload="none"
+            playsinline
+          >
+            <source
+              src="assets\video\IMG_1147.MP4"
+              type="video/mp4"
+            >
+            Your browser does not support this video format.
+          </video>
+        </div>
+
+        <div class="video-card__info">
+          <span class="video-card__category">ANIMATION</span>
+          <h3>Creative Animation</h3>
+          <p>An exploration of motion and visual storytelling.</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Maryam Elazomy | Game Designer, Creative Lead and Video Director</title>
+  <meta
+    name="description"
+    content="Portfolio of Maryam Elazomy: video direction, social media, digital marketing, visual design, photography, game design and 3D."
+  >
+  <meta name="theme-color" content="#080808">
+
+  <meta property="og:title" content="Maryam Elazomy">
+  <meta
+    property="og:description"
+    content="Game designer, creative lead and video director. Explore video, social media, visual design, photography, games and 3D."
+  >
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+
+  <!-- Background Lines -->
+  <div class="lines" aria-hidden="true">
+    <i></i>
+    <i></i>
+    <i></i>
+  </div>
+
+  <!-- Accessibility -->
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ================= HEADER ================= -->
+  <header class="bar">
+    <a class="mark" href="#top">Maryam Elazomy</a>
+
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+
+      <button type="button" id="navAbout">
+        About &amp; CV
+      </button>
+
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="top" aria-label="Introduction">
+      <!-- Overlapping Image Gallery -->
+      <div class="hero-gallery" id="heroGallery">
+        <div class="gallery-card card-top" data-speed="0.025">
+          <img
+            src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=600&q=85"
+            alt="Modern architecture"
+            fetchpriority="high"
+          >
+        </div>
+        <div class="gallery-card card-clock" data-speed="-0.035">
+          <img
+            src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=600&q=85"
+            alt="Minimal interior design"
+            loading="lazy"
+          >
+        </div>
+        <div class="gallery-card card-flower" data-speed="0.045">
+          <img
+            src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=600&q=85"
+            alt="Pink flowers"
+            loading="lazy"
+          >
+        </div>
+        <div class="gallery-card card-kitchen" data-speed="-0.025">
+          <img
+            src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=700&q=85"
+            alt="Modern interior"
+            loading="lazy"
+          >
+        </div>
+        <div class="gallery-card card-bedroom" data-speed="0.035">
+          <img
+            src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=700&q=85"
+            alt="Minimal interior design"
+            loading="lazy"
+          >
+        </div>
+        <div class="gallery-card card-shirt" data-speed="-0.045">
+          <img
+            src="https://images.unsplash.com/photo-1598554747436-c9293d6a588f?auto=format&fit=crop&w=600&q=85"
+            alt="Fashion photography"
+            loading="lazy"
+          >
+        </div>
+        <div class="gallery-card card-bottom" data-speed="0.025">
+          <img
+            src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=600&q=85"
+            alt="Beauty product photography"
+            loading="lazy"
+          >
+        </div>
+        <div class="gallery-card card-plant" data-speed="-0.035">
+          <img
+            src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=600&q=85"
+            alt="Plants and interior"
+            loading="lazy"
+          >
+        </div>
+        <div class="gallery-card card-main" data-speed="0.015">
+          <img
+            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=90"
+            alt="Creative portrait"
+            fetchpriority="high"
+          >
+        </div>
+      </div>
+      <!-- Introduction: content populated by js/main.js -->
+      <div class="hero-introduction">
+
+        <p class="eyebrow" id="eyebrow"></p>
+
+        <h1 class="name" id="name"></h1>
+
+        <p class="intro" id="intro"></p>
+
+        <a href="#contact" class="hero-contact">
+          Let's Connect
+          <span aria-hidden="true">↗</span>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- ================= WORK ================= -->
+    <section class="work-sec" id="work" aria-label="Selected work">
+      <div class="wrap">
+        <div class="tiles" id="tiles"></div>
+      </div>
+    </section>
+
+    <!-- ================= KEY FACTS ================= -->
+    <section class="facts" aria-label="Key facts">
+      <div class="wrap">
+        <ul class="stats" id="stats"></ul>
+      </div>
+    </section>
+
+    <!-- ================= MARQUEE ================= -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track" id="marquee"></div>
+    </div>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <div class="contact-heading">
+          <p class="label">CONTACT</p>
+          <h2>Have a project in mind?</h2>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Contact information -->
+          <div class="contact-info" id="contactInfo">
+            <a class="contact-item" href="mailto:mariam.awad.2024@aiu.edu.eg">
+              <span class="contact-icon" aria-hidden="true">@</span>
+              <span class="contact-details">
+                <small>Email</small>
+                <span>mariam.awad.2024@aiu.edu.eg</span>
+              </span>
+              <span class="contact-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <a class="contact-item" href="https://wa.me/201004830998" target="_blank" rel="noopener noreferrer" aria-label="Contact Maryam on WhatsApp">
+            <span class="contact-icon" aria-hidden="true">W</span> <span class="contact-details"> <small>WhatsApp</small> <span>01004830998</span> </span> <span class="contact-arrow" aria-hidden="true">↗</span> </a>
+            <a class="contact-item" href="https://www.linkedin.com/in/maryam-elazomy-a64a6533a" target="_blank" rel="noopener noreferrer">
+              <span class="contact-icon" aria-hidden="true">in</span>
+              <span class="contact-details">
+                <small>LinkedIn</small>
+                <span>Maryam Elazomy</span>
+              </span>
+              <span class="contact-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <a
+              class="contact-item"
+              href="https://www.behance.net/maryahmad"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="contact-icon" aria-hidden="true">Bē</span>
+              <span class="contact-details">
+                <small>Behance</small>
+                <span>Maryam's Portfolio</span>
+              </span>
+              <span class="contact-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+
+          <!-- Contact form -->
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-field">
+              <label for="contactName">Name</label>
+              <input
+                id="contactName"
+                name="from_name"
+                type="text"
+                placeholder="Your name"
+                minlength="2"
+                required
+              />
+              <small class="field-error">Please enter your name.</small>
+            </div>
+
+            <div class="form-field">
+              <label for="contactEmail">Email</label>
+              <input
+                id="contactEmail"
+                name="from_email"
+                type="email"
+                placeholder="you@example.com"
+                required
+              />
+              <small class="field-error">Please enter a valid email.</small>
+            </div>
+
+            <div class="form-field">
+              <label for="contactMessage">Message</label>
+              <textarea
+                id="contactMessage"
+                name="message"
+                rows="5"
+                minlength="10"
+                placeholder="Tell me about your project"
+                required
+              ></textarea>
+              <small class="field-error">
+                Please write at least 10 characters.
+              </small>
+            </div>
+
+            <button class="contact-submit" type="submit">
+              <span class="submit-text">Send Message</span>
+              <span class="submit-arrow" aria-hidden="true">↗</span>
+            </button>
+
+            <p class="contact-status" id="contactStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="foot">
+    <div class="wrap">
+      <span>&copy; 2026 Maryam Elazomy</span>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <!-- ================= PROJECT PANEL ================= -->
+  <dialog class="panel" id="panel" aria-labelledby="pTitle">
+
+    <div class="p-top">
+
+      <button
+        type="button"
+        class="p-back"
+        id="pBack"
+        hidden
+      >
+        &larr; Back
+      </button>
+
+      <span class="p-crumb" id="pCrumb"></span>
+
+      <button
+        class="p-close"
+        id="pClose"
+        type="button"
+      >
+        Close
+      </button>
+
+    </div>
+
+    <div class="p-body" id="pBody"></div>
+
+  </dialog>
+
+  <!-- ================= NO JAVASCRIPT ================= -->
+  <noscript>
+    <p style="padding:24px;color:#EDEAE4">
+      Please enable JavaScript to view this portfolio.
+    </p>
+  </noscript>
+
+  <!-- Existing project data and functionality -->
+  <script src="js/data.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- ================= HERO ANIMATIONS ================= -->
+  <script>
+    (function () {
+      "use strict";
+
+      var gallery = document.getElementById("heroGallery");
+      var introduction = document.querySelector(".hero-introduction");
+
+      if (!gallery || !introduction) {
+        return;
+      }
+
+      var reduceMotion = window.matchMedia(
+        "(prefers-reduced-motion: reduce)"
+      ).matches;
+
+      /*
+       * Reveal the gallery and introduction.
+       */
+      if (reduceMotion || !("IntersectionObserver" in window)) {
+        gallery.classList.add("is-visible");
+        introduction.classList.add("is-visible");
+      } else {
+        var revealObserver = new IntersectionObserver(
+          function (entries, observer) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("is-visible");
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          {
+            threshold: 0.08
+          }
+        );
+
+        revealObserver.observe(gallery);
+        revealObserver.observe(introduction);
+      }
+
+      /*
+       * Subtle scroll movement for the gallery cards.
+       * The data-speed attribute controls each card's direction
+       * and movement intensity.
+       */
+      if (reduceMotion) {
+        return;
+      }
+
+      var cards = Array.prototype.slice.call(
+        gallery.querySelectorAll(".gallery-card[data-speed]")
+      );
+
+      var ticking = false;
+      var galleryVisible = true;
+
+      function updateGallery() {
+        ticking = false;
+
+        if (!galleryVisible) {
+          return;
+        }
+
+        var rect = gallery.getBoundingClientRect();
+        var viewportHeight = window.innerHeight;
+
+        if (rect.bottom < 0 || rect.top > viewportHeight) {
+          return;
+        }
+
+        var distance = (viewportHeight * 0.5) - (rect.top + rect.height * 0.5);
+
+        cards.forEach(function (card) {
+          var speed = parseFloat(card.getAttribute("data-speed")) || 0;
+
+          card.style.setProperty(
+            "--scroll-y",
+            (distance * speed) + "px"
+          );
+        });
+      }
+
+      function requestGalleryUpdate() {
+        if (!ticking) {
+          ticking = true;
+          window.requestAnimationFrame(updateGallery);
+        }
+      }
+
+      window.addEventListener(
+        "scroll",
+        requestGalleryUpdate,
+        { passive: true }
+      );
+
+      window.addEventListener(
+        "resize",
+        requestGalleryUpdate,
+        { passive: true }
+      );
+
+      if ("IntersectionObserver" in window) {
+        var movementObserver = new IntersectionObserver(
+          function (entries) {
+            entries.forEach(function (entry) {
+              galleryVisible = entry.isIntersecting;
+
+              if (galleryVisible) {
+                requestGalleryUpdate();
+              }
+            });
+          }
+        );
+
+        movementObserver.observe(gallery);
+      }
+
+      requestGalleryUpdate();
+    })();
+  </script>
+
+</body>
+</html>
