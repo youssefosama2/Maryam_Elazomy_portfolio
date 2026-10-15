@@ -1062,13 +1062,13 @@ window.SITE = {
         },
         {
           "id": "ur-animals",
-          "title": "\"UR ANIMALS\" - Strategic Marketing Plan & Brand Ecosystem",
-          "kind": "Digital advertising",
+          "title": "UR ANIMALS — Strategic Marketing Plan & Brand Ecosystem",
+          "kind": "Digital marketing · Strategic planning",
           "when": "2026 – Present",
           "c": 6,
-          "overview": "A comprehensive strategic marketing plan, business model, and brand ecosystem developed for 'UR ANIMALS'. Backed by an active community of over 268,000 followers on Facebook, the project integrates e-commerce, custom pet products, smart pet-tech features, and data-driven growth strategies to bridge the gap in the regional pet care market.",
+          "overview": "A strategic marketing plan, business model, and brand ecosystem for UR ANIMALS. It builds on UR Pets Community, a private Facebook community of 260K+ members, and combines e-commerce, custom pet products, smart pet-tech features, and data-driven growth strategies to address the gap in the regional pet care market.",
           "facts": [
-            ["Client", "Startup Business & Community Ecosystem (Founder: Maryam Elazomy)"],
+            ["Client", "Own venture"],
             ["Role", "Founder & Strategic Marketing Planner"]
           ],
           "skills": [
@@ -1118,9 +1118,58 @@ window.SITE = {
             {
               "src": "assets/img/Marketing Plan UR ANIMALS/10.png",
               "caption": "UR ANIMALS — Strategic Marketing Plan & Brand Ecosystem — Image 10"
+            },
+            {
+              "src": "assets/img/Marketing Plan UR ANIMALS/11.jpeg",
+              "caption": "UR ANIMALS — Strategic Marketing Plan & Brand Ecosystem — Image 11"
+            },
+            {
+              "src": "assets/img/Marketing Plan UR ANIMALS/12.jpeg",
+              "caption": "UR ANIMALS — Strategic Marketing Plan & Brand Ecosystem — Image 12"
             }
           ]
-        }
+        },
+        {
+          "id": "reform-circular-design",
+          "title": "RE:FORM — Circular-Design Business Model",
+          "kind": "Business strategy · Sustainability · Green Loop 2026",
+          "when": "2026",
+          "c": 1,
+          "text": "Solo participant",
+          "overview": "A business model I developed for Green Loop 2026, a national competition I entered and qualified for. I am currently a finalist, with results due on 20 October. RE:FORM is a campus circular-design service for Alamein International University: instead of recycling usable surplus such as banners, boards, wood and fabric, it recovers their value first. Materials are captured, inventoried and matched with student design challenges, turning surplus into real products. The deck covers the problem, pilot material streams, the student engine, business model, revenue and cost structure, impact metrics, risks and stakeholders.",
+          "facts": [
+            ["Client", "Alamein International University"],
+            ["Role", "Solo participant"]
+          ],
+          "skills": [
+            "Sustainability",
+            "Business Model",
+            "Strategy",
+            "Competition"
+          ],
+          "media": [
+            { "src": "assets/img/OPPORTUNITIES/1.jpeg", "caption": "Opportunities — Image 1" },
+            { "src": "assets/img/OPPORTUNITIES/2.jpeg", "caption": "Opportunities — Image 2" },
+            { "src": "assets/img/OPPORTUNITIES/3.jpeg", "caption": "Opportunities — Image 3" },
+            { "src": "assets/img/OPPORTUNITIES/4.jpeg", "caption": "Opportunities — Image 4" },
+            { "src": "assets/img/OPPORTUNITIES/5.jpeg", "caption": "Opportunities — Image 5" },
+            { "src": "assets/img/OPPORTUNITIES/6.jpeg", "caption": "Opportunities — Image 6" },
+            { "src": "assets/img/OPPORTUNITIES/7.jpeg", "caption": "Opportunities — Image 7" },
+            { "src": "assets/img/OPPORTUNITIES/8.jpeg", "caption": "Opportunities — Image 8" },
+            { "src": "assets/img/OPPORTUNITIES/9.jpeg", "caption": "Opportunities — Image 9" },
+            { "src": "assets/img/OPPORTUNITIES/10.jpeg", "caption": "Opportunities — Image 10" },
+            { "src": "assets/img/OPPORTUNITIES/11.jpeg", "caption": "Opportunities — Image 11" },
+            { "src": "assets/img/OPPORTUNITIES/12.jpeg", "caption": "Opportunities — Image 12" },
+            { "src": "assets/img/OPPORTUNITIES/13.jpeg", "caption": "Opportunities — Image 13" },
+            { "src": "assets/img/OPPORTUNITIES/14.jpeg", "caption": "Opportunities — Image 14" },
+            { "src": "assets/img/OPPORTUNITIES/15.jpeg", "caption": "Opportunities — Image 15" },
+            { "src": "assets/img/OPPORTUNITIES/16.jpeg", "caption": "Opportunities — Image 16" },
+            { "src": "assets/img/OPPORTUNITIES/17.jpeg", "caption": "Opportunities — Image 17" },
+            { "src": "assets/img/OPPORTUNITIES/18.jpeg", "caption": "Opportunities — Image 18" },
+            { "src": "assets/img/OPPORTUNITIES/19.jpeg", "caption": "Opportunities — Image 19" },
+            { "src": "assets/img/OPPORTUNITIES/20.jpeg", "caption": "Opportunities — Image 20" }
+          ]
+        },
       ]
     },
 
@@ -1150,43 +1199,31 @@ window.SITE = {
       ],
       "items": [
         {
-          "id": "brand-design",
-          "title": "Brand & Graphic Design",
+          "id": "aiu-icpc-community",
+          "title": "AIU ICPC Community - Media Leadership & Campaign Case Study",
           "kind": "Graphic design",
-          "when": "From 2018",
+          "when": "2025–2026",
           "c": 5,
-          "overview": "Graphic design for many brands and clients, created at a graphic design company for doctors and as a freelancer.",
+          "overview": "A comprehensive case study showcasing recruitment, participation, and event communication for the AIU ICPC Community (2025–26). As the Head of Media, I led the entire media strategy, directed and produced the promotional motion graphics video, designed recruitment and contest posters using Canva and Illustrator, managed social media communication, and captured/edited on-ground photography for the Orientation Day.",
           "facts": [
-            ["Role", "Graphic designer"],
-            ["Setting", "Design company and freelance"]
+            ["Organization", "AIU ICPC Community, Alamein International University"],
+            ["Role", "Head of Media"],
+            ["Key Elements", "Motion Graphics & Video Campaign; Recruitment & Contest Posters; Event Communication & Photography"],
+            ["Tools", "Canva, Adobe Illustrator, Motion Graphics, Video Direction, Photography & Editing"]
           ],
-          "skills": ["Visual branding", "Illustrator", "Photoshop"],
+          "skills": [
+            "Media Strategy",
+            "Motion Graphics",
+            "Graphic Design",
+            "Social Media Communication",
+            "Photography & Editing"
+          ],
           "media": [
             {
               "src": "assets/video/IMG_1147.MP4",
-              "caption": "Brand & Graphic Design"
-            }
-          ]
-        },
-        {
-          "id": "community",
-          "title": "UR Pets Bazaar Community",
-          "kind": "Community building",
-          "when": "Online business",
-          "c": 4,
-          "text": "270K+ members",
-          "overview": "An online business with a community of more than 270K members. Solo founder, and first place at the Innovators Care Competition.",
-          "facts": [
-            ["Role", "Solo founder"],
-            ["Community", "270K+ members"]
-          ],
-          "skills": [
-            "Community building",
-            "Entrepreneurship",
-            "Content"
-          ],
-          "media": [
-            {
+              "caption": "AIU ICPC Community — Media Leadership & Campaign Case Study"
+            },
+                        {
               "src": "assets/img/ICPC-Case-Study/1.png",
               "caption": "ICPC Case Study — Image 1"
             },
@@ -1205,45 +1242,35 @@ window.SITE = {
           ]
         },
         {
-          "id": "icpc-media",
-          "title": "AIU ICPC Community",
-          "kind": "Head of Media & Marketing",
-          "when": "Aug 2025 – Mar 2026",
+          "id": "egypt-forum-2026",
+          "title": "Egypt Forum 2026 — Student Dialogue Sessions",
+          "kind": "Leadership · Events · Media appearance",
+          "when": "2026",
           "c": 1,
-          "text": "Head of Media",
-          "overview": "Led the media team and the branding strategy of the community, managed the community page and handled all of its content and publishing.",
+          "overview": "Nominated as one of about 20 outstanding students representing Alamein International University in the academic and community dialogue sessions held ahead of Egypt Forum 2026, and the only representative from the Faculty of Arts and Design. Worked in an interdisciplinary team of five students from different faculties to discuss and develop ideas, and took part in a television interview covering the sessions.",
           "facts": [
-            ["Role", "Head of Media & Marketing"],
-            ["Where", "Alamein International University"]
+            ["Client", "Alamein International University"],
+            ["Role", "Student representative · Team member"]
           ],
           "skills": [
-            "Team leadership",
-            "Branding",
-            "Community page"
+            "Leadership",
+            "Teamwork",
+            "Public Speaking",
+            "Events"
           ],
-            "media": [
-              { "src": "assets/img/OPPORTUNITIES/1.jpeg", "caption": "Opportunities — Image 1" },
-              { "src": "assets/img/OPPORTUNITIES/2.jpeg", "caption": "Opportunities — Image 2" },
-              { "src": "assets/img/OPPORTUNITIES/3.jpeg", "caption": "Opportunities — Image 3" },
-              { "src": "assets/img/OPPORTUNITIES/4.jpeg", "caption": "Opportunities — Image 4" },
-              { "src": "assets/img/OPPORTUNITIES/5.jpeg", "caption": "Opportunities — Image 5" },
-              { "src": "assets/img/OPPORTUNITIES/6.jpeg", "caption": "Opportunities — Image 6" },
-              { "src": "assets/img/OPPORTUNITIES/7.jpeg", "caption": "Opportunities — Image 7" },
-              { "src": "assets/img/OPPORTUNITIES/8.jpeg", "caption": "Opportunities — Image 8" },
-              { "src": "assets/img/OPPORTUNITIES/9.jpeg", "caption": "Opportunities — Image 9" },
-              { "src": "assets/img/OPPORTUNITIES/10.jpeg", "caption": "Opportunities — Image 10" },
-              { "src": "assets/img/OPPORTUNITIES/11.jpeg", "caption": "Opportunities — Image 11" },
-              { "src": "assets/img/OPPORTUNITIES/12.jpeg", "caption": "Opportunities — Image 12" },
-              { "src": "assets/img/OPPORTUNITIES/13.jpeg", "caption": "Opportunities — Image 13" },
-              { "src": "assets/img/OPPORTUNITIES/14.jpeg", "caption": "Opportunities — Image 14" },
-              { "src": "assets/img/OPPORTUNITIES/15.jpeg", "caption": "Opportunities — Image 15" },
-              { "src": "assets/img/OPPORTUNITIES/16.jpeg", "caption": "Opportunities — Image 16" },
-              { "src": "assets/img/OPPORTUNITIES/17.jpeg", "caption": "Opportunities — Image 17" },
-              { "src": "assets/img/OPPORTUNITIES/18.jpeg", "caption": "Opportunities — Image 18" },
-              { "src": "assets/img/OPPORTUNITIES/19.jpeg", "caption": "Opportunities — Image 19" },
-              { "src": "assets/img/OPPORTUNITIES/20.jpeg", "caption": "Opportunities — Image 20" }
-            ]
-        },
+          "media": [
+            {
+              "src": "assets/video/WhatsApp Video 2026-10-15 at 2.17.54 PM.mp4",
+              "caption": "Egypt Forum 2026 — Student Dialogue Sessions",
+              "type": "video"
+            },
+            {
+              "src": "assets/img/WhatsApp Image 2026-10-15 at 2.17.55 PM.jpeg",
+              "caption": "Egypt Forum 2026 — Student Representative",
+              "type": "image"
+            }
+          ]
+        }
       ]
     }
   ],
