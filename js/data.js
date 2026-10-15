@@ -1287,6 +1287,36 @@ window.SITE = {
               "type": "image"
             }
           ]
+        },
+        {
+          "id": "egypt-forum-2026",
+          "title": "Insomnia Egypt Gaming Festival",
+          "kind": "On-ground marketing · Community · Esports · 2026",
+          "when": "2026",
+          "c": 1,
+          "overview": "Worked on-site at Insomnia Egypt Gaming Festival, handling on-ground marketing and content to promote the festival's sports titles, connect with the gaming community, and share the energy of the event in real time. As a game designer and programmer, I also observed how players interact with games, what excites them, and how games feel in a live environment. I took part in the FIFA tournament on stage.",
+          "facts": [
+            ["Client / Where", "Insomnia Egypt"],
+            ["Role", "On-ground marketing & content · Participant"]
+          ],
+          "skills": [
+            "Events",
+            "Community",
+            "Esports",
+            "Game Design"
+          ],
+          "media": [
+            {
+              "src": "assets/img/WhatsApp Image 2026-10-15 at 4.03.37 PM.jpeg",
+              "caption": "Insomnia Egypt Gaming Festival",
+              "type": "image"
+            },
+            {
+              "src": "assets/img/WhatsApp Image 2026-10-15 at 4.05.12 PM.jpeg",
+              "caption": "Insomnia Egypt Gaming Festival",
+              "type": "image"
+            }
+          ]
         }
       ]
     }
