@@ -96,11 +96,13 @@ window.SITE = {
       "tone": 6,
       "cover": "assets/img/IMG_20261014_112532_867.jpeg",
       "tools": [
+        "Videography⁠Premiere Pro",
         "Premiere Pro",
-        "CapCut",
         "After Effects",
-        "AI video creation",
-        "Voiceover"
+        "⁠CapCut Pro⁠",
+        "⁠Motion Graphics",
+        "⁠AI Video Creation",
+        "Voice-Over",
       ],
       "highlights": [
         "Video director at Alex Foods since June 2026",
