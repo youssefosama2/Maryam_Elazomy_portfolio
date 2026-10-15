@@ -399,67 +399,100 @@ window.SITE = {
       "items": [
         {
           "id": "brand-design",
-          "title": "Brand & Graphic Design",
+          "title": "\"HERRA\" Ridesharing App - UI/UX Case Study",
           "kind": "Graphic design",
           "when": "From 2018",
           "c": 5,
-          "overview": "Graphic design for many brands and clients, created at a graphic design company for doctors and as a freelancer.",
+          "overview": "A comprehensive UI/UX case study and design for 'Herra', a secure ridesharing mobile application dedicated to women. Covers the complete product lifecycle from user research and interface design to user testing and interactive prototyping.",
           "facts": [
-            ["Role", "Graphic designer"],
-            ["Setting", "Design company and freelance"]
+            ["Role", "Lead UI/UX Designer & Researcher"],
+            ["Client", "University Project (New Media Application Course)"]
           ],
-          "skills": ["Visual branding", "Illustrator", "Photoshop"],
+          "skills": [
+            "UI/UX Design",
+            "Mobile App Design",
+            "User Testing",
+            "Figma",
+            "Product Strategy"
+          ],
           "media": [
             {
               "src": "assets/video/4_5942757277504119516.MP4",
-              "caption": "Brand & Graphic Design"
+              "caption": "\"HERRA\" Ridesharing App - UI/UX Case Study"
             }
           ]
         },
         {
           "id": "posters",
-          "title": "Posters & Social Visuals",
+          "title": "\"Wild West\" Game Promotional Website - UI/UX Case Study",
           "kind": "Visual content",
           "when": "From 2018",
           "c": 3,
-          "overview": "Posters and visual content for social media, designed with Canva and Adobe Illustrator.",
-          "facts": [["Tools", "Canva, Illustrator, Photoshop"]],
-          "skills": ["Canva", "Poster design", "Social visuals"],
+          "overview": "A comprehensive UI/UX case study and web design project for 'Wild West', an interactive promotional website for a game. Designed entirely on Figma, featuring custom-drawn web elements, icons, responsive desktop/mobile layouts, and animated web banners.",
+          "facts": [
+            ["Client", "University Project (Web Design Course - AIU)"],
+            ["Role", "Lead UI/UX & Web Designer"],
+            ["Tools", "Figma, Illustrator, Photoshop"]
+          ],
+          "skills": [
+            "UI/UX Design",
+            "Web Design",
+            "Custom Icons",
+            "Interactive Experience",
+            "Figma"
+          ],
           "media": [
             {
               "src": "assets/img/IMG_20261014_112627_266.jpg",
-              "caption": "Posters & Social Visuals"
+              "caption": "\"Wild West\" Game Promotional Website - UI/UX Case Study"
             }
           ]
         },
         {
           "id": "brand-design",
-          "title": "Brand & Graphic Design",
+          "title": "\"Photography & Event Brand\" - Animated Logo & Motion Branding",
           "kind": "Graphic design",
           "when": "From 2018",
           "c": 5,
-          "overview": "Graphic design for many brands and clients, created at a graphic design company for doctors and as a freelancer.",
+          "overview": "Custom animated logo and motion branding created for a professional photography and wedding invitation company based in Saudi Arabia. Designed vector assets from scratch using Adobe Illustrator and brought to life with dynamic motion graphics in After Effects to match the client's brand identity.",
           "facts": [
-            ["Role", "Graphic designer"],
-            ["Setting", "Design company and freelance"]
+            ["Client", "Photography & Wedding Stationery Company, Saudi Arabia"],
+            ["Role", "Motion Designer & Brand Identity Creator"],
+            ["Tools", "Illustrator, After Effects"]
           ],
-          "skills": ["Visual branding", "Illustrator", "Photoshop"],
+          "skills": [
+            "Motion Branding",
+            "Logo Animation",
+            "Vector Design",
+            "After Effects",
+            "Brand Identity"
+          ],
           "media": [
             {
               "src": "assets/video/4_5942565747732521425.MP4",
-              "caption": "Brand & Graphic Design"
+              "caption": "\"Photography & Event Brand\" - Animated Logo & Motion Branding"
             }
           ]
         },
         {
           "id": "packaging",
-          "title": "Packaging Design",
+          "title": "\"UrPetsBazzar\" - E-Commerce & Pet Care Ecosystem App (UI/UX Case Study)",
           "kind": "Packaging",
           "when": "From 2018",
           "c": 0,
-          "overview": "Product packaging designed for a well-known potato company.",
-          "facts": [["Role", "Packaging designer"]],
-          "skills": ["Packaging", "Illustrator"],
+          "overview": "A comprehensive UI/UX case study and product design for 'UrPetsBazzar', an all-in-one e-commerce and pet care platform developed as both an academic project and a real-world business extension of the 'UrPets' community (scaling over 270,000 members). The ecosystem covers online shopping, veterinary guidance, and proprietary pet food products, bridging community leadership with full-scale digital product execution.",
+          "facts": [
+            ["Client", "Founding & Startup Project (UrPets Brand)"],
+            ["Role", "Founder, Product Lead & UI/UX Designer"],
+            ["Tools", "Figma, UI/UX Research, Prototyping, Branding"]
+          ],
+          "skills": [
+            "E-Commerce App",
+            "UI/UX Case Study",
+            "Startup Ecosystem",
+            "Product Design",
+            "Community Branding"
+          ],
           "media": [
             {
               "src": "assets/img/1.png",
@@ -498,13 +531,23 @@ window.SITE = {
         {
           "id": "zigo",
           "group": "UX/UI & Web",
-          "title": "Zigo",
+          "title": "\"Zigo\" - Behavioral Analysis & Academic Guidance App (Official University Adoption)",
           "kind": "UX/UI app",
           "when": "",
           "c": 5,
-          "overview": "A student behavior and performance analysis app, adopted by the university president and deans for the new university clinic.",
-          "facts": [["Role", "UX/UI design"]],
-          "skills": ["UX/UI", "Wireframes", "Research"],
+          "overview": "A gamified UI/UX case study and behavioral analysis application developed as a university project and officially adopted by Alamein International University leadership (University President, Vice Presidents, and Deans) for the new university psychological clinic. 'Zigo' evaluates student behavior and performance metrics, leveraging medical research and interactive questionnaires to intelligently recommend the optimal academic programs within the Faculty of Arts & Design.",
+          "facts": [
+            ["Client", "Alamein International University (AIU) - New University Clinic"],
+            ["Role", "Lead UX/UI & Product Designer"],
+            ["Tools", "Figma, Behavioral Research, User Testing, UI/UX Prototyping"]
+          ],
+          "skills": [
+            "UI/UX Case Study",
+            "Behavioral Analysis",
+            "Academic Integration",
+            "Product Design",
+            "User Research"
+          ],
           "media": [
             {
               "src": "assets/img/Zigo/1.png",
@@ -535,13 +578,23 @@ window.SITE = {
         {
           "id": "hera",
           "group": "UX/UI & Web",
-          "title": "Hera",
+          "title": "\"Quest Numbers\" - Educational Math App Rapid Prototype",
           "kind": "UX/UI app",
           "when": "",
           "c": 0,
-          "overview": "A UX/UI concept for a women's ride-hailing app.",
-          "facts": [["Role", "UX/UI design"]],
-          "skills": ["UX/UI", "Wireframes", "Prototyping"],
+          "overview": "A rapid UI/UX prototype and interactive design created upon client request for 'Quest Numbers'. Designed to simplify mathematics for children through multiple engaging learning methods, gamified UI elements, and intuitive user flows.",
+          "facts": [
+            ["Client", "Client-Requested Rapid Prototype"],
+            ["Role", "UI/UX & Product Prototyper"],
+            ["Tools", "Figma, Rapid Prototyping, Educational UX"]
+          ],
+          "skills": [
+            "UI/UX Design",
+            "Rapid Prototyping",
+            "Educational App",
+            "Kids UX",
+            "Client Project"
+          ],
           "media": [
             {
               "src": "assets/video/4_5942565747732521441.mp4",
@@ -552,51 +605,78 @@ window.SITE = {
         {
           "id": "ur-pets-app",
           "group": "UX/UI & Web",
-          "title": "UR Pets App",
+          "title": "\"Elkhashab Real Estate\" - Performance Marketing & Ad Campaign",
           "kind": "UX/UI app",
           "when": "University project",
           "c": 3,
-          "overview": "UX/UI design for a pet marketplace and community platform.",
-          "facts": [["Role", "UX/UI design"]],
-          "skills": ["UX/UI", "Wireframes"],
+          "overview": "A high-performing digital marketing and paid advertising campaign for a real estate client. Managed the complete social media presence, content creation, and targeted ad campaigns from scratch, with this specific poster design driving exceptional engagement and conversion results.",
+          "facts": [
+            ["Client", "Elkhashab Real Estate Investments"],
+            ["Role", "Digital Marketer, Media Buyer & Content Creator"]
+          ],
+          "skills": [
+            "Paid Ads",
+            "Media Buying",
+            "Real Estate Marketing",
+            "Social Media Management",
+            "Graphic Design"
+          ],
           "media": [
             {
               "src": "assets/img/IMG_20261014_112515_520.jpg",
-              "caption": "UR Pets App Design"
+              "caption": "Elkhashab Real Estate — Performance Marketing & Ad Campaign"
             }
           ]
         },
         {
-          "id": "kids-apps",
+          "id": "cooking-master-chef",
           "group": "UX/UI & Web",
-          "title": "Kids Learning Apps",
+          "title": "\"Cooking Master Chef\" - Commercial Food Packaging Design",
           "kind": "UX/UI apps",
           "when": "",
           "c": 4,
-          "overview": "Multiple learning apps for children covering math and skills development.",
-          "facts": [["Role", "UX/UI design"]],
-          "skills": ["UX/UI", "Educational design"],
+          "overview": "Commercial packaging and vector design for 'Cooking Master Chef' French Fries. Developed based on precise professional dimensions and product requirements, successfully manufactured, and currently distributed and retailed across major Egyptian hypermarkets and markets (such as Gomla Market).",
+          "facts": [
+            ["Client", "Cooking Master Chef (FMCG Brand, Egypt)"],
+            ["Role", "Packaging & Brand Identity Designer"]
+          ],
+          "skills": [
+            "Packaging Design",
+            "FMCG Branding",
+            "Vector Design",
+            "Product Mockup",
+            "Commercial Print"
+          ],
           "media": [
             {
               "src": "assets/img/IMG_20261014_112557_775.jpg",
-              "caption": "Kids Learning Apps"
+              "caption": "Cooking Master Chef — Commercial Food Packaging Design"
             }
           ]
         },
         {
-          "id": "dept-site",
+          "id": "aiu-ieee",
           "group": "UX/UI & Web",
-          "title": "Game Design Department Website",
+          "title": "\"AIU IEEE\" - Festive Social Media & Event Poster",
           "kind": "Web UI",
           "when": "",
           "c": 1,
-          "overview": "The full website UI for the Game Design department.",
-          "facts": [["Role", "UI design"]],
-          "skills": ["Web UI", "HTML & CSS"],
+          "overview": "A festive social media and event poster created as a media team member for the AIU IEEE Student Branch. Designed to celebrate seasonal events, engage the university community, and maintain brand consistency across official channels, successfully published on the university's official pages.",
+          "facts": [
+            ["Client", "AIU IEEE Student Branch"],
+            ["Role", "Media & Marketing Team Member"]
+          ],
+          "skills": [
+            "Graphic Design",
+            "Social Media Poster",
+            "Community Branding",
+            "Visual Communication",
+            "IEEE AIU"
+          ],
           "media": [
             {
               "src": "assets/img/IMG_20261014_112619_726.jpg",
-              "caption": "Game Design Department Website"
+              "caption": "AIU IEEE — Festive Social Media & Event Poster"
             }
           ]
         },
@@ -649,75 +729,99 @@ window.SITE = {
         {
           "id": "leftover",
           "group": "Games",
-          "title": "Leftover",
+          "title": "\"LEFTOVER\" - 3D Action/Parkour Game Project",
           "kind": "Game, Unity and Blender",
-          "when": "In development",
+          "when": "Completed / Playable Prototype",
           "c": 6,
-          "overview": "Designed and programmed in Unity and Blender. The concept and game design document are complete, and development is in progress.",
+          "overview": "A 3D gameplay project developed as part of a university prototyping course, featuring 6 unique levels. Conceived, designed, and programmed entirely by me—from C# scripting, Unity development, and 3D environment/character building using Blender, to UI/UX design and custom sound system curation.",
           "facts": [
-            ["Role", "Designer and programmer"],
-            ["Status", "In development"]
+            ["Client", "University Prototyping Course Project"],
+            ["Role", "Solo Game Developer, Programmer & 3D Artist"],
+            ["Status", "Completed / Playable Prototype"],
+            ["Tools", "Unity, Blender, C#, Figma"]
           ],
           "skills": [
-            "Game design document",
-            "Unity",
-            "Blender"
+            "Game Development",
+            "3D Modeling",
+            "Unity Engine",
+            "Level Design",
+            "Sound Design",
+            "UI/UX"
           ],
           "media": [
             {
               "src": "assets/video/4_5942565747732521447.MOV",
-              "caption": "Leftover Gameplay"
+              "caption": "LEFTOVER Gameplay"
+            },
+            {
+              "src": "assets/img/WhatsApp Image 2026-10-15 at 2.37.18 AM.jpeg",
+              "caption": "LEFTOVER — 3D Action/Parkour Game Project"
             }
           ]
         },
         {
-          "id": "lost-memory",
+          "id": "leftover-environment",
           "group": "Games",
-          "title": "The Lost Memory",
+          "title": "\"LEFTOVER\" - 3D Environment & Trailer Development",
           "kind": "Game",
-          "when": "",
+          "when": "In Progress",
           "c": 1,
-          "overview": "A game project.",
-          "todo": "Add: the concept, your role, the tools, the status and screenshots.",
-          "facts": [],
+          "overview": "A complete 3D environment and character design project modeled from scratch using Blender, serving as the core world-building and promotional trailer for the ongoing game project 'LEFTOVER'. Showcases end-to-end 3D asset creation, scene texturing, and cinematic trailer direction.",
+          "facts": [
+            ["Client", "Independent 3D Game Project (In Progress)"],
+            ["Role", "Lead 3D Environment Artist & Trailer Director"],
+            ["Status", "Game In Progress"],
+            ["Tools", "Blender, Video Editing, 3D Modeling, Trailer Direction"]
+          ],
           "skills": [
-            "Game design"
+            "3D Environment",
+            "Character Modeling",
+            "Blender",
+            "Game Trailer",
+            "World Building"
           ],
           "media": [
             {
               "src": "assets/video/VID_20261014_023119_853.mp4",
-              "caption": "The Lost Memory — Video 1"
+              "caption": "LEFTOVER — 3D Environment Trailer"
             },
             {
               "src": "assets/img/Image 2026-10-14 at 8.27.51 PM (1).jpeg",
-              "caption": "The Lost Memory — Video 2"
+              "caption": "LEFTOVER — 3D Environment 1"
+            },
+            {
+              "src": "assets/video/WhatsApp Video 2026-10-15 at 2.41.32 AM.mp4",
+              "caption": "LEFTOVER — 3D Environment Trailer"
             },
             {
               "src": "assets/img/Image 2026-10-14 at 8.27.51 PM.jpeg",
-              "caption": "The Lost Memory — Video 3"
+              "caption": "LEFTOVER — 3D Environment 2"
             },
             {
               "src": "assets/img/Image 2026-10-14 at 8.27.53 PM.jpeg",
-              "caption": "The Lost Memory — Video 4"
+              "caption": "LEFTOVER — 3D Environment 3"
             }
           ]
         },
         {
-          "id": "healthy-runner",
+          "id": "character-design-visual-development",
           "group": "Games",
-          "title": "Healthy Runner",
+          "title": "\"Character Design & Visual Development\" - Concept Art Collection",
           "kind": "Educational mobile game",
           "when": "Jun – Jul 2026",
           "c": 4,
-          "overview": "An educational mobile game for children, built in Unity at GMind in Alexandria. The core runner mechanics include lane switching and decision-based gates that reward healthy choices.",
+          "overview": "A comprehensive visual development and character design board showcasing the end-to-end creative pipeline. Features initial pencil construction sketches, detailed vector illustrations created in Adobe Illustrator (including 'Sahra Secrets' and 'Track Zone'), character sheets, expressions, and 3D AI-generated collectible figure visualizations.",
           "facts": [
-            ["Role", "Game designer and developer trainee"],
-            ["Studio", "GMind, Alexandria"]
+            ["Client", "Academic & Professional Character Design Portfolio"],
+            ["Role", "Concept Artist & Character Designer"],
+            ["Tools", "Adobe Illustrator, Concept Art, Character Design, Visual Development, 3D Visualization"]
           ],
           "skills": [
-            "Unity",
-            "Game mechanics",
-            "Educational design"
+            "Adobe Illustrator",
+            "Concept Art",
+            "Character Design",
+            "Visual Development",
+            "3D Visualization"
           ],
           "media": [
             {
@@ -763,46 +867,56 @@ window.SITE = {
           ]
         },
         {
-          "id": "prototypes",
+          "id": "3d-character-modeling-animation",
           "group": "Games",
-          "title": "Unity Prototypes",
+          "title": "\"3D Character Modeling & Animation\" - University Project",
           "kind": "Prototypes",
           "when": "",
           "c": 2,
-          "overview": "Multiple Unity game prototypes built with object-oriented programming principles.",
+          "overview": "A 3D character design, modeling, and animation project created for the New Media Application course. Modeled completely from scratch in Blender, featuring custom textures, rigging, and dynamic character animation to bring the concept to life.",
           "facts": [
-            ["Tools", "Unity"]
+            ["Client", "University Project (New Media Application Course)"],
+            ["Role", "3D Character Artist & Animator"],
+            ["Tools", "Blender, 3D Modeling, Character Animation, Texturing, Rigging"]
           ],
           "skills": [
-            "OOP",
-            "Prototyping"
+            "Blender",
+            "3D Modeling",
+            "Character Animation",
+            "Texturing",
+            "Rigging"
           ],
           "media": [
             {
-              "src": "assets/img/IMG_20261014_112543_149.jpg",
-              "caption": "Unity Prototypes"
+              "src": "assets/img/WhatsApp Video 2026-10-15 at 2.47.41 AM.mp4",
+              "caption": "3D Character Modeling & Animation — University Project"
             }
           ]
         },
         {
-          "id": "unreal-levels",
+          "id": "3d-custom-goblet",
           "group": "Games",
-          "title": "Unreal Engine Levels",
+          "title": "\"3D Custom Goblet\" - Product Modeling & Sculpting",
           "kind": "Level design",
           "when": "",
           "c": 5,
-          "overview": "Levels designed in Unreal Engine with a focus on gameplay flow.",
+          "overview": "A custom 3D modeling and digital sculpting project created to client specifications. Designed and sculpted with precision using 3ds Max to achieve realistic forms, smooth surfaces, and high-quality asset presentation.",
           "facts": [
-            ["Tools", "Unreal Engine"]
+            ["Client", "Client Commission Project"],
+            ["Role", "3D Modeler & Sculptor"],
+            ["Tools", "3ds Max, 3D Modeling, Digital Sculpting, Product Design, Client Commission"]
           ],
           "skills": [
-            "Level design",
-            "Gameplay flow"
+            "3ds Max",
+            "3D Modeling",
+            "Digital Sculpting",
+            "Product Design",
+            "Client Commission"
           ],
           "media": [
             {
               "src": "assets/video/4_5942565747732521437.MP4",
-              "caption": "Unreal Engine Level Showcase"
+              "caption": "3D Custom Goblet — Product Modeling & Sculpting"
             }
           ]
         },
@@ -861,166 +975,151 @@ window.SITE = {
       ],
       "items": [
         {
-          "id": "social-campaigns",
-          "title": "Social Media Video Campaigns",
+          "id": "momo-italian-cafe",
+          "title": "\"Momo Italian Cafe\" - UGC & Creator Marketing Campaign",
           "kind": "Social Media Campaign",
           "when": "",
           "c": 1,
-          "overview": "Sample project for short-form video campaigns created to support social media marketing and brand awareness.",
-          "todo": "Temporary project name and description — replace with the actual project details.",
+          "overview": "A comprehensive creator and paid media campaign executed for Momo Italian Cafe, introducing their very first branch in Egypt as an extension of the renowned Italian brand. Handled the complete production pipeline independently: conceptualizing the content strategy, on-site filming, video editing, and executing a cross-platform promotional campaign as both a content creator and media partner.",
           "facts": [
-            ["Role", "Video Creator & Editor"]
+            ["Client", "Momo Italian Cafe (First Egyptian Branch / Italian Brand)"],
+            ["Role", "Content Creator, Videographer & Media Buyer"]
           ],
           "skills": [
-            "Social Media Content",
-            "Short-Form Video",
-            "Editing"
-          ],
-          "media": [
-            {
-              "src": "assets/video/1791938877063.mp4",
-              "caption": "Social Media Video Campaign"
-            }
-          ]
-        },
-        {
-          "id": "social-campaigns",
-          "title": "Social Media Video Campaigns",
-          "kind": "Social Media Campaign",
-          "when": "",
-          "c": 1,
-          "overview": "Sample project for short-form video campaigns created to support social media marketing and brand awareness.",
-          "todo": "Temporary project name and description — replace with the actual project details.",
-          "facts": [
-            ["Role", "Video Creator & Editor"]
-          ],
-          "skills": [
-            "Social Media Content",
-            "Short-Form Video",
-            "Editing"
+            "UGC Content",
+            "Video Direction",
+            "Brand Launch",
+            "Social Media Campaign",
+            "Content Strategy"
           ],
           "media": [
             {
               "src": "assets/video/4_5890821832881217114.MOV",
-              "caption": "Social Media Video Campaign"
+              "caption": "Momo Italian Cafe — UGC & Creator Marketing Campaign"
             }
           ]
         },
         {
-          "id": "social-campaigns",
-          "title": "Social Media Video Campaigns",
+          "id": "creative-video-campaign",
+          "title": "\"Creative Video Campaign\" - Scripting, Filming & Voice-Over",
           "kind": "Social Media Campaign",
           "when": "",
           "c": 1,
-          "overview": "Sample project for short-form video campaigns created to support social media marketing and brand awareness.",
-          "todo": "Temporary project name and description — replace with the actual project details.",
+          "overview": "A complete end-to-end promotional video campaign handled entirely from concept to execution. Developed the full creative concept, written script, on-site filming, and professional voice-over recording, followed by targeted social media promotion and cross-platform publishing.",
           "facts": [
-            ["Role", "Video Creator & Editor"]
+            ["Client", "Brand Promotional & UGC Campaign"],
+            ["Role", "Concept Creator, Videographer, Voice-Over Artist & Media Buyer"]
           ],
           "skills": [
-            "Social Media Content",
-            "Short-Form Video",
-            "Editing"
+            "Video Production",
+            "Voice-Over",
+            "Scriptwriting",
+            "UGC"
           ],
           "media": [
             {
               "src": "assets/video/IMG_4940.MP4",
-              "caption": "Social Media Video Campaign"
+              "caption": "Creative Video Campaign — Scripting, Filming & Voice-Over"
             }
           ]
         },
         {
-          "id": "pages",
-          "title": "Page Management",
-          "kind": "Social media",
-          "when": "Freelance",
-          "c": 0,
-          "overview": "Pages for doctors, real estate and food brands, built and managed from A to Z: content, scriptwriting, marketing and advertising campaigns.",
+          "id": "aiu-game-design-program",
+          "title": "\"AIU Game Design Program\" - Strategic Marketing & Development Plan",
+          "kind": "Social Media Campaign",
+          "when": "",
+          "c": 1,
+          "overview": "A comprehensive strategic marketing and development plan formulated for the Game Design and Programming program at Alamein International University. Developed under academic supervision (submitted to Prof. Safaa Abdelsalam, Dean of the Faculty of Arts & Design, and supervised by Dr. Mohamed Osama) to increase departmental awareness, establish the 'AIU Game D&P Students Society', structure campus-wide showcases, and build a thriving academic community.",
           "facts": [
-            ["Role", "Page and content management (freelance)"],
-            ["Clients", "Doctors, real estate, food brands"]
+            ["Client", "Alamein International University (AIU) - Faculty of Arts & Design"],
+            ["Role", "Lead Strategic Planner & Department Developer"]
           ],
           "skills": [
-            "Page management",
-            "Content planning",
-            "Ad campaigns"
+            "Strategic Planning",
+            "Marketing Strategy",
+            "Academic Leadership",
+            "Community Building",
+            "University Branding"
           ],
           "media": [
             {
               "src": "assets/img/Game Design/1.png",
-              "caption": "Game Design — Image 1"
+              "caption": "AIU Game Design Program — Strategic Marketing & Development Plan — Image 1"
             },
             {
               "src": "assets/img/Game Design/2.png",
-              "caption": "Game Design — Image 2"
+              "caption": "AIU Game Design Program — Strategic Marketing & Development Plan — Image 2"
             },
             {
               "src": "assets/img/Game Design/3.png",
-              "caption": "Game Design — Image 3"
+              "caption": "AIU Game Design Program — Strategic Marketing & Development Plan — Image 3"
             },
             {
               "src": "assets/img/Game Design/4.png",
-              "caption": "Game Design — Image 4"
+              "caption": "AIU Game Design Program — Strategic Marketing & Development Plan — Image 4"
             }
           ]
         },
         {
-          "id": "paid-ads",
-          "title": "Paid Ad Campaigns",
+          "id": "ur-animals",
+          "title": "\"UR ANIMALS\" - Strategic Marketing Plan & Brand Ecosystem",
           "kind": "Digital advertising",
           "when": "2026 – Present",
           "c": 6,
-          "overview": "Paid campaigns that promoted restaurant and café videos on social media.",
+          "overview": "A comprehensive strategic marketing plan, business model, and brand ecosystem developed for 'UR ANIMALS'. Backed by an active community of over 268,000 followers on Facebook, the project integrates e-commerce, custom pet products, smart pet-tech features, and data-driven growth strategies to bridge the gap in the regional pet care market.",
           "facts": [
-            ["Role", "Content creator and campaign manager"]
+            ["Client", "Startup Business & Community Ecosystem (Founder: Maryam Elazomy)"],
+            ["Role", "Founder & Strategic Marketing Planner"]
           ],
           "skills": [
-            "Paid advertising",
-            "Campaigns",
-            "Short-form video"
+            "Strategic Planning",
+            "Startup Ecosystem",
+            "Brand Identity",
+            "E-Commerce Strategy",
+            "Community Building"
           ],
-        "media": [
-          {
-            "src": "assets/img/Marketing Plan UR ANIMALS/1.png",
-            "caption": "Marketing Plan UR ANIMALS — Image 1"
-          },
-          {
-            "src": "assets/img/Marketing Plan UR ANIMALS/2.png",
-            "caption": "Marketing Plan UR ANIMALS — Image 2"
-          },
-          {
-            "src": "assets/img/Marketing Plan UR ANIMALS/3.png",
-            "caption": "Marketing Plan UR ANIMALS — Image 3"
-          },
-          {
-            "src": "assets/img/Marketing Plan UR ANIMALS/4.png",
-            "caption": "Marketing Plan UR ANIMALS — Image 4"
-          },
-          {
-            "src": "assets/img/Marketing Plan UR ANIMALS/5.png",
-            "caption": "Marketing Plan UR ANIMALS — Image 5"
-          },
-          {
-            "src": "assets/img/Marketing Plan UR ANIMALS/6.png",
-            "caption": "Marketing Plan UR ANIMALS — Image 6"
-          },
-          {
-            "src": "assets/img/Marketing Plan UR ANIMALS/7.png",
-            "caption": "Marketing Plan UR ANIMALS — Image 7"
-          },
-          {
-            "src": "assets/img/Marketing Plan UR ANIMALS/8.png",
-            "caption": "Marketing Plan UR ANIMALS — Image 8"
-          },
-          {
-            "src": "assets/img/Marketing Plan UR ANIMALS/9.png",
-            "caption": "Marketing Plan UR ANIMALS — Image 9"
-          },
-          {
-            "src": "assets/img/Marketing Plan UR ANIMALS/10.png",
-            "caption": "Marketing Plan UR ANIMALS — Image 10"
-          }
-        ]
+          "media": [
+            {
+              "src": "assets/img/Marketing Plan UR ANIMALS/1.png",
+              "caption": "UR ANIMALS — Strategic Marketing Plan & Brand Ecosystem — Image 1"
+            },
+            {
+              "src": "assets/img/Marketing Plan UR ANIMALS/2.png",
+              "caption": "UR ANIMALS — Strategic Marketing Plan & Brand Ecosystem — Image 2"
+            },
+            {
+              "src": "assets/img/Marketing Plan UR ANIMALS/3.png",
+              "caption": "UR ANIMALS — Strategic Marketing Plan & Brand Ecosystem — Image 3"
+            },
+            {
+              "src": "assets/img/Marketing Plan UR ANIMALS/4.png",
+              "caption": "UR ANIMALS — Strategic Marketing Plan & Brand Ecosystem — Image 4"
+            },
+            {
+              "src": "assets/img/Marketing Plan UR ANIMALS/5.png",
+              "caption": "UR ANIMALS — Strategic Marketing Plan & Brand Ecosystem — Image 5"
+            },
+            {
+              "src": "assets/img/Marketing Plan UR ANIMALS/6.png",
+              "caption": "UR ANIMALS — Strategic Marketing Plan & Brand Ecosystem — Image 6"
+            },
+            {
+              "src": "assets/img/Marketing Plan UR ANIMALS/7.png",
+              "caption": "UR ANIMALS — Strategic Marketing Plan & Brand Ecosystem — Image 7"
+            },
+            {
+              "src": "assets/img/Marketing Plan UR ANIMALS/8.png",
+              "caption": "UR ANIMALS — Strategic Marketing Plan & Brand Ecosystem — Image 8"
+            },
+            {
+              "src": "assets/img/Marketing Plan UR ANIMALS/9.png",
+              "caption": "UR ANIMALS — Strategic Marketing Plan & Brand Ecosystem — Image 9"
+            },
+            {
+              "src": "assets/img/Marketing Plan UR ANIMALS/10.png",
+              "caption": "UR ANIMALS — Strategic Marketing Plan & Brand Ecosystem — Image 10"
+            }
+          ]
         }
       ]
     },
