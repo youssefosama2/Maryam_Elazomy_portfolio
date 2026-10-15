@@ -683,17 +683,25 @@ window.SITE = {
         {
           "id": "dept-site",
           "group": "UX/UI & Web",
-          "title": "Game Design Department Website",
-          "kind": "Web UI",
+          "title": "\"Character's Emotional State\" - Interactive 2D/3D Wheel Design",
+          "kind": "University Game Design Project (Field of Arts & Design)",
           "when": "",
           "c": 1,
-          "overview": "The full website UI for the Game Design department.",
-          "facts": [["Role", "UI design"]],
-          "skills": ["Web UI", "HTML & CSS"],
+          "overview": "A complete character and interactive design project. Conceived and designed character expressions and a psychological 'Emotional State Wheel' in 2D, translated them into 3D visualizations, and successfully executed a physical, interactive installation displayed on-ground at the university.",
+          "facts": [
+            ["Role", "Character Designer & 3D Visualizer"]
+          ],
+          "skills": [
+            "Character Design",
+            "2D/3D Modeling",
+            "Interactive Installation",
+            "Concept Art",
+            "Visual Storytelling"
+          ],
           "media": [
             {
               "src": "assets/img/IMG_20261014_112604_166.jpg",
-              "caption": "Game Design Department Website"
+              "caption": "\"Character's Emotional State\" - Interactive 2D/3D Wheel Design"
             }
           ]
         }
@@ -727,9 +735,9 @@ window.SITE = {
       ],
       "items": [
         {
-          "id": "leftover",
+          "id": "Roof top one",
           "group": "Games",
-          "title": "\"LEFTOVER\" - 3D Action/Parkour Game Project",
+          "title": "\"Roof top one\" - 3D Action/Parkour Game Project",
           "kind": "Game, Unity and Blender",
           "when": "Completed / Playable Prototype",
           "c": 6,
@@ -888,7 +896,11 @@ window.SITE = {
           ],
           "media": [
             {
-              "src": "assets/img/WhatsApp Video 2026-10-15 at 2.47.41 AM.mp4",
+              "src": "assets/video/WhatsApp Video 2026-10-15 at 3.15.28 PM.mp4",
+              "caption": "3D Character Modeling & Animation — University Project"
+            },
+            {
+              "src": "assets/img/WhatsApp Image 2026-10-15 at 3.15.28 PM.jpeg",
               "caption": "3D Character Modeling & Animation — University Project"
             }
           ]
@@ -922,27 +934,30 @@ window.SITE = {
         },
         {
           "id": "rooftop",
-          "group": "Games",
-          "title": "Rooftop",
-          "kind": "Game",
+          "group": "Client Projects",
+          "title": "Interior Design & Architectural 3D Modeling",
+          "kind": "Client Commission Project",
           "when": "",
           "c": 3,
-          "overview": "A game with four levels, designed and programmed.",
+          "overview": "A professional interior design and architectural 3D modeling project executed for a client. Modeled, structured, and visualized with precision using 3ds Max, focusing on interior space planning, structural layout, and environmental presentation.",
           "facts": [
-            ["Role", "Designer and programmer"]
+            ["Role", "3D Interior Designer & Modeler"]
           ],
           "skills": [
-            "Level design",
-            "Programming"
+            "3ds Max",
+            "Interior Design",
+            "Architectural Modeling",
+            "Space Planning",
+            "Client Project"
           ],
           "media": [
             {
               "src": "assets/img/IMG_20261014_112548_531.jpg",
-              "caption": "Rooftop — Screenshot 1"
+              "caption": "Interior Design & Architectural 3D Modeling — Screenshot 1"
             },
             {
               "src": "assets/img/IMG_20261014_112548_864.jpg",
-              "caption": "Rooftop — Screenshot 2"
+              "caption": "Interior Design & Architectural 3D Modeling — Screenshot 2"
             }
           ]
         }
