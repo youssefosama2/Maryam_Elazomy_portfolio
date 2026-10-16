@@ -1,54 +1,31 @@
-/* =====================================================================
-   MARYAM ELAZOMY PORTFOLIO — ALL CONTENT LIVES IN THIS FILE
-   Edit text, add images and videos here. You never need to touch main.js.
-
-   HOW TO ADD MEDIA
-   1. Put the file in assets/img/ (images) or assets/video/ (videos).
-   2. In the project below, fill the media list, for example:
-        media: [
-          { src: "assets/img/alex-foods-1.jpg", caption: "Frame from the commercial" },
-          { src: "assets/video/alex-foods.mp4", poster: "assets/img/alex-foods-poster.jpg" }
-        ]
-      Type (image or video) is detected from the file extension.
-      The first media file becomes the cover of the project card.
-   3. Optional: links: [{ label: "Watch on Behance", href: "https://..." }]
-
-   DEVELOPER MODE
-   Open the site with ?dev=1 at the end of the URL to see the "todo" notes
-   and the hidden draft items (draft: true).
-
-      TONES: 0 ivory  1 charcoal  2 umber  3 sand  4 deep green  5 slate  6 accent (orange)
-   Each section card (tile) uses its "tone" and, if you set cover: "assets/img/x.jpg", an image.
-   ===================================================================== */
-
 window.SITE = {
   "name": [
     "Maryam",
     "Elazomy"
   ],
   "eyebrow": "Game designer · Creative lead · Video director",
-  "intro": "Game designer and programmer, creative lead, video director and content creator. BA in Game Design and Programming at Alamein International University, graduating in 2027.",
+  "intro": "Game designer and developer: graphic, packaging and UI/UX design, video direction and editing, social media, digital marketing, and community building. BA in Game Design and Programming at Alamein International University, graduating in 2027.",
   "portrait": "assets/img/Maryam.jpeg",
   "portraitCaption": "Maryam Elazomy",
   "stats": [
     {
-      "value": "270K+",
+      "value": "260K+",
       "label": "members in the online community I founded"
     },
     {
-      "value": "2017",
-      "label": "creating content since"
+      "value": "1st ",
+      "label": "place, Innovators Care Competition"
     },
     {
       "value": "2018",
-      "label": "graphic and packaging design since"
+      "label": "working in digital marketing and design since"
     },
     {
       "value": "2027",
-      "label": "graduating, BA Game Design and Programming"
+      "label": "graduating, BA Game Design & Programming, Alamein International University"
     }
   ],
-  "tools": [
+  "tools": [ 
     "Canva",
     "Adobe Illustrator",
     "Adobe Photoshop",
@@ -579,7 +556,7 @@ window.SITE = {
         },
         {
           "id": "hera",
-          "group": "UX/UI & Web",
+          // "group": "UX/UI & Web",
           "title": "\"Quest Numbers\" - Educational Math App Rapid Prototype",
           "kind": "UX/UI app",
           "when": "",
@@ -606,7 +583,7 @@ window.SITE = {
         },
         {
           "id": "ur-pets-app",
-          "group": "UX/UI & Web",
+          // "group": "UX/UI & Web",
           "title": "\"Elkhashab Real Estate\" - Performance Marketing & Ad Campaign",
           "kind": "UX/UI app",
           "when": "University project",
@@ -632,7 +609,7 @@ window.SITE = {
         },
         {
           "id": "cooking-master-chef",
-          "group": "UX/UI & Web",
+          // "group": "UX/UI & Web",
           "title": "\"Cooking Master Chef\" - Commercial Food Packaging Design",
           "kind": "UX/UI apps",
           "when": "",
@@ -658,7 +635,7 @@ window.SITE = {
         },
         {
           "id": "aiu-ieee",
-          "group": "UX/UI & Web",
+          // "group": "UX/UI & Web",
           "title": "\"AIU IEEE\" - Festive Social Media & Event Poster",
           "kind": "Web UI",
           "when": "",
@@ -684,7 +661,7 @@ window.SITE = {
         },
         {
           "id": "dept-site",
-          "group": "UX/UI & Web",
+          // "group": "UX/UI & Web",
           "title": "\"Character's Emotional State\" - Interactive 2D/3D Wheel Design",
           "kind": "University Game Design Project (Field of Arts & Design)",
           "when": "",
@@ -704,6 +681,31 @@ window.SITE = {
             {
               "src": "assets/img/IMG_20261014_112604_166.jpg",
               "caption": "\"Character's Emotional State\" - Interactive 2D/3D Wheel Design"
+            }
+          ]
+        },
+        {
+          "id": "dept-site",
+          // "group": "Client Projects",
+          "title": "Luxury Makeup & Accessories Brand Identity & Packaging",
+          "kind": "Client Commission - Syrian Makeup & Accessories Brand",
+          "when": "",
+          "c": 1,
+          "overview": "A custom-tailored brand identity and luxury packaging design project executed precisely according to a Syrian client's vision for a premier makeup and accessories brand. Crafted the complete visual identity from scratch—including the custom logo designed in Adobe Illustrator, premium rigid boxes, product pouches, and packaging collateral tailored to meet the client's exact aesthetic requirements.",
+          "facts": [
+            ["Role", "Lead Brand & Packaging Designer"]
+          ],
+          "skills": [
+            "Visual Branding",
+            "Packaging Design",
+            "Adobe Illustrator",
+            "Adobe Photoshop",
+            "International Client"
+          ],
+          "media": [
+            {
+              "src": "assets/img/WhatsApp Image 2026-10-16 at 1.56.08 AM.jpeg",
+              "caption": "Luxury Makeup & Accessories Brand Identity & Packaging"
             }
           ]
         }
