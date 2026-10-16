@@ -155,7 +155,7 @@ h1, h2, h3, h4, p, figure { margin: 0; }
 .foot{border-top:1px solid var(--line);padding:22px 0;font-size:.82rem;color:var(--muted)}
 .foot .wrap{display:flex;justify-content:space-between;gap:16px}
 @media(max-width:760px){
-.contact{padding:64px 0}
+.contact{padding:34px 0}
 .contact-layout{grid-template-columns:minmax(0,1fr);gap:20px}
 .contact-heading , .WORK-heading{margin-bottom:32px}
 .contact-heading h2 , .WORK-heading h2{font-size:clamp(2rem,8vw,3rem)}
